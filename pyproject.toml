@@ -1,0 +1,9 @@
+[project]
+name = "winddyn"
+version = "0.1.0"
+description = "Quadrotor dynamics calibration and decision-interface evaluation"
+requires-python = ">=3.10"
+dependencies = ["numpy", "torch", "pyyaml", "matplotlib"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

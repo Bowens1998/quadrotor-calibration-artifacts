@@ -1,0 +1,88 @@
+{
+  "means": [
+    {
+      "regime": "mass_1p4",
+      "method": "feedback",
+      "tier": "pooled",
+      "tracking_rmse": 1.1204931300659637
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "observer",
+      "tier": "pooled",
+      "tracking_rmse": 1.0333088890644972
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "scalar",
+      "tier": "pooled",
+      "tracking_rmse": 1.1185745231498772
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "physics_features",
+      "tier": "pooled",
+      "tracking_rmse": 1.094976923191763
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "raw",
+      "tier": "pooled",
+      "tracking_rmse": 1.1403058862125954
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "scalar_old",
+      "tier": "pooled",
+      "tracking_rmse": 1.0969346881921613
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "supervised",
+      "tier": "pooled",
+      "tracking_rmse": 1.0785277241466296
+    },
+    {
+      "regime": "lag_3",
+      "method": "feedback",
+      "tier": "pooled",
+      "tracking_rmse": 0.575919916919188
+    },
+    {
+      "regime": "lag_3",
+      "method": "observer",
+      "tier": "pooled",
+      "tracking_rmse": 0.4091334491178943
+    },
+    {
+      "regime": "lag_3",
+      "method": "scalar",
+      "tier": "pooled",
+      "tracking_rmse": 0.5195762123775128
+    },
+    {
+      "regime": "lag_3",
+      "method": "physics_features",
+      "tier": "pooled",
+      "tracking_rmse": 0.5182326491922434
+    },
+    {
+      "regime": "lag_3",
+      "method": "raw",
+      "tier": "pooled",
+      "tracking_rmse": 0.5519777035138925
+    },
+    {
+      "regime": "lag_3",
+      "method": "scalar_old",
+      "tier": "pooled",
+      "tracking_rmse": 0.5260254341938112
+    },
+    {
+      "regime": "lag_3",
+      "method": "supervised",
+      "tier": "pooled",
+      "tracking_rmse": 0.5060023630194952
+    }
+  ]
+}

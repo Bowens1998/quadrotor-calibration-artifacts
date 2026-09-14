@@ -1,0 +1,102 @@
+{
+  "method_means": [
+    {
+      "regime": "mass_1p4",
+      "method": "frozen",
+      "tier": "pooled",
+      "shared_rmse": 0.20906215202691972,
+      "regret": 0.03256322556829659
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "scalar",
+      "tier": "pooled",
+      "shared_rmse": 0.2734352460251855,
+      "regret": 0.014737675671248304
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "physics_features",
+      "tier": "pooled",
+      "shared_rmse": 0.32408039312845666,
+      "regret": 0.03769424406583893
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "raw",
+      "tier": "pooled",
+      "shared_rmse": 0.23262544377567762,
+      "regret": 0.0297924076677083
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "raw_depth",
+      "tier": "pooled",
+      "shared_rmse": 0.31539614145823247,
+      "regret": 0.030420393285895242
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "adapt_random",
+      "tier": "pooled",
+      "shared_rmse": 0.29819763124595033,
+      "regret": 0.03669273735913298
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "adapt_pretrained",
+      "tier": "pooled",
+      "shared_rmse": 0.24330989712502502,
+      "regret": 0.03335703371195796
+    },
+    {
+      "regime": "lag_3",
+      "method": "frozen",
+      "tier": "pooled",
+      "shared_rmse": 0.26514289288125864,
+      "regret": 0.02894510457055314
+    },
+    {
+      "regime": "lag_3",
+      "method": "scalar",
+      "tier": "pooled",
+      "shared_rmse": 0.3055949192179691,
+      "regret": 0.016285316761079482
+    },
+    {
+      "regime": "lag_3",
+      "method": "physics_features",
+      "tier": "pooled",
+      "shared_rmse": 0.38107274830460003,
+      "regret": 0.03991936132208985
+    },
+    {
+      "regime": "lag_3",
+      "method": "raw",
+      "tier": "pooled",
+      "shared_rmse": 0.30724024424203294,
+      "regret": 0.029426796279355627
+    },
+    {
+      "regime": "lag_3",
+      "method": "raw_depth",
+      "tier": "pooled",
+      "shared_rmse": 0.3511565093745925,
+      "regret": 0.031920000512964716
+    },
+    {
+      "regime": "lag_3",
+      "method": "adapt_random",
+      "tier": "pooled",
+      "shared_rmse": 0.39412070226324525,
+      "regret": 0.03558766701055767
+    },
+    {
+      "regime": "lag_3",
+      "method": "adapt_pretrained",
+      "tier": "pooled",
+      "shared_rmse": 0.29220545414059307,
+      "regret": 0.02718617112000734
+    }
+  ]
+}

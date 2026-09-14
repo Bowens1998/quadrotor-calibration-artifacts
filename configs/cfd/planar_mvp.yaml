@@ -1,0 +1,17 @@
+# Planar LBM wind-field batch (spec §7).
+resolution_m: 0.25          # 30 m / 0.25 m = 120 x 120 grid
+n_steps: 8000
+avg_window: 2000
+device: cuda                # falls back to cpu if unavailable
+out_dir: data/wind_fields
+manifest: data/manifests/wind_fields.json
+
+train_conditions:           # ID wind distribution
+  directions_deg: [0, 90, 180, 270]
+  speeds_mps: [3.0, 6.0]
+ood_conditions:             # Wind-OOD (interpolative: new directions, in-range speed)
+  directions_deg: [45, 135, 225, 315]
+  speeds_mps: [4.5]
+ood_extrap_conditions:      # Wind-OOD (extrapolative: seen directions, 8 m/s > train max 6)
+  directions_deg: [0, 90, 180, 270]
+  speeds_mps: [8.0]

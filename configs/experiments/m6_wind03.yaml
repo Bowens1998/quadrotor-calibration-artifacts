@@ -1,0 +1,26 @@
+name: m6_wind03
+model:
+  jepa: true
+  use_depth: true
+  use_wind: false
+  privileged: true
+  wind_teacher: patch
+  detach_probe: true
+  latent_dim: 128
+  hidden_dim: 256
+  action_embed_dim: 64
+  ema_decay: 0.996
+data:
+  H: 12
+  K: 30
+  stride: 5
+train:
+  batch_size: 256
+  epochs: 50
+  lr: 3.0e-4
+  loss_weights:
+    probe: 1.0
+    dyn: 1.0
+    var: 1.0
+    wind_rec: 0.3
+    wind_lat: 0.3

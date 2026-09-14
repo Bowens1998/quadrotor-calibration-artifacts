@@ -1,0 +1,18 @@
+# Eval-only speed-stress tier (12 m/s). u_lat = 0.16 makes the default
+# tau=0.56 marginal (20/120 fields diverged in l_shape / narrow_corridor);
+# tau=0.65 adds numerical viscosity for stability and is declared in the
+# per-field meta. Isolated manifest, never seen by the core split machinery.
+resolution_m: 0.25
+n_steps: 8000
+avg_window: 2000
+device: cuda
+tau: 0.65
+out_dir: data/wind_fields
+manifest: data/manifests/wind_fields_stress12.json
+
+train_conditions:
+  directions_deg: []
+  speeds_mps: []
+ood_conditions:
+  directions_deg: [0, 90, 180, 270]
+  speeds_mps: [12.0]

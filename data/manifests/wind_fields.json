@@ -1,0 +1,2884 @@
+{
+  "fields": [
+    {
+      "scene_id": "single_pillar_000",
+      "wind_id": "d000_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_000__d000_s3.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_000",
+      "wind_id": "d000_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_000__d000_s6.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_000",
+      "wind_id": "d090_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_000__d090_s3.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_000",
+      "wind_id": "d090_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_000__d090_s6.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_000",
+      "wind_id": "d180_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_000__d180_s3.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_000",
+      "wind_id": "d180_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_000__d180_s6.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_000",
+      "wind_id": "d270_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_000__d270_s3.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_000",
+      "wind_id": "d270_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_000__d270_s6.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_000",
+      "wind_id": "d045_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/single_pillar_000__d045_s4.5.npz"
+    },
+    {
+      "scene_id": "single_pillar_000",
+      "wind_id": "d135_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/single_pillar_000__d135_s4.5.npz"
+    },
+    {
+      "scene_id": "single_pillar_000",
+      "wind_id": "d225_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/single_pillar_000__d225_s4.5.npz"
+    },
+    {
+      "scene_id": "single_pillar_000",
+      "wind_id": "d315_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/single_pillar_000__d315_s4.5.npz"
+    },
+    {
+      "scene_id": "single_pillar_000",
+      "wind_id": "d000_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/single_pillar_000__d000_s8.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_000",
+      "wind_id": "d090_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/single_pillar_000__d090_s8.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_000",
+      "wind_id": "d180_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/single_pillar_000__d180_s8.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_000",
+      "wind_id": "d270_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/single_pillar_000__d270_s8.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_001",
+      "wind_id": "d000_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_001__d000_s3.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_001",
+      "wind_id": "d000_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_001__d000_s6.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_001",
+      "wind_id": "d090_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_001__d090_s3.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_001",
+      "wind_id": "d090_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_001__d090_s6.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_001",
+      "wind_id": "d180_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_001__d180_s3.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_001",
+      "wind_id": "d180_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_001__d180_s6.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_001",
+      "wind_id": "d270_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_001__d270_s3.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_001",
+      "wind_id": "d270_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_001__d270_s6.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_001",
+      "wind_id": "d045_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/single_pillar_001__d045_s4.5.npz"
+    },
+    {
+      "scene_id": "single_pillar_001",
+      "wind_id": "d135_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/single_pillar_001__d135_s4.5.npz"
+    },
+    {
+      "scene_id": "single_pillar_001",
+      "wind_id": "d225_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/single_pillar_001__d225_s4.5.npz"
+    },
+    {
+      "scene_id": "single_pillar_001",
+      "wind_id": "d315_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/single_pillar_001__d315_s4.5.npz"
+    },
+    {
+      "scene_id": "single_pillar_001",
+      "wind_id": "d000_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/single_pillar_001__d000_s8.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_001",
+      "wind_id": "d090_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/single_pillar_001__d090_s8.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_001",
+      "wind_id": "d180_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/single_pillar_001__d180_s8.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_001",
+      "wind_id": "d270_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/single_pillar_001__d270_s8.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_002",
+      "wind_id": "d000_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_002__d000_s3.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_002",
+      "wind_id": "d000_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_002__d000_s6.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_002",
+      "wind_id": "d090_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_002__d090_s3.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_002",
+      "wind_id": "d090_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_002__d090_s6.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_002",
+      "wind_id": "d180_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_002__d180_s3.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_002",
+      "wind_id": "d180_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_002__d180_s6.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_002",
+      "wind_id": "d270_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_002__d270_s3.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_002",
+      "wind_id": "d270_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_002__d270_s6.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_002",
+      "wind_id": "d045_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/single_pillar_002__d045_s4.5.npz"
+    },
+    {
+      "scene_id": "single_pillar_002",
+      "wind_id": "d135_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/single_pillar_002__d135_s4.5.npz"
+    },
+    {
+      "scene_id": "single_pillar_002",
+      "wind_id": "d225_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/single_pillar_002__d225_s4.5.npz"
+    },
+    {
+      "scene_id": "single_pillar_002",
+      "wind_id": "d315_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/single_pillar_002__d315_s4.5.npz"
+    },
+    {
+      "scene_id": "single_pillar_002",
+      "wind_id": "d000_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/single_pillar_002__d000_s8.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_002",
+      "wind_id": "d090_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/single_pillar_002__d090_s8.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_002",
+      "wind_id": "d180_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/single_pillar_002__d180_s8.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_002",
+      "wind_id": "d270_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/single_pillar_002__d270_s8.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_003",
+      "wind_id": "d000_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_003__d000_s3.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_003",
+      "wind_id": "d000_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_003__d000_s6.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_003",
+      "wind_id": "d090_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_003__d090_s3.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_003",
+      "wind_id": "d090_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_003__d090_s6.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_003",
+      "wind_id": "d180_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_003__d180_s3.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_003",
+      "wind_id": "d180_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_003__d180_s6.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_003",
+      "wind_id": "d270_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_003__d270_s3.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_003",
+      "wind_id": "d270_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_003__d270_s6.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_003",
+      "wind_id": "d045_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/single_pillar_003__d045_s4.5.npz"
+    },
+    {
+      "scene_id": "single_pillar_003",
+      "wind_id": "d135_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/single_pillar_003__d135_s4.5.npz"
+    },
+    {
+      "scene_id": "single_pillar_003",
+      "wind_id": "d225_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/single_pillar_003__d225_s4.5.npz"
+    },
+    {
+      "scene_id": "single_pillar_003",
+      "wind_id": "d315_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/single_pillar_003__d315_s4.5.npz"
+    },
+    {
+      "scene_id": "single_pillar_003",
+      "wind_id": "d000_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/single_pillar_003__d000_s8.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_003",
+      "wind_id": "d090_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/single_pillar_003__d090_s8.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_003",
+      "wind_id": "d180_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/single_pillar_003__d180_s8.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_003",
+      "wind_id": "d270_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/single_pillar_003__d270_s8.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_004",
+      "wind_id": "d000_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_004__d000_s3.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_004",
+      "wind_id": "d000_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_004__d000_s6.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_004",
+      "wind_id": "d090_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_004__d090_s3.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_004",
+      "wind_id": "d090_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_004__d090_s6.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_004",
+      "wind_id": "d180_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_004__d180_s3.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_004",
+      "wind_id": "d180_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_004__d180_s6.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_004",
+      "wind_id": "d270_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_004__d270_s3.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_004",
+      "wind_id": "d270_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_004__d270_s6.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_004",
+      "wind_id": "d045_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/single_pillar_004__d045_s4.5.npz"
+    },
+    {
+      "scene_id": "single_pillar_004",
+      "wind_id": "d135_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/single_pillar_004__d135_s4.5.npz"
+    },
+    {
+      "scene_id": "single_pillar_004",
+      "wind_id": "d225_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/single_pillar_004__d225_s4.5.npz"
+    },
+    {
+      "scene_id": "single_pillar_004",
+      "wind_id": "d315_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/single_pillar_004__d315_s4.5.npz"
+    },
+    {
+      "scene_id": "single_pillar_004",
+      "wind_id": "d000_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/single_pillar_004__d000_s8.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_004",
+      "wind_id": "d090_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/single_pillar_004__d090_s8.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_004",
+      "wind_id": "d180_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/single_pillar_004__d180_s8.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_004",
+      "wind_id": "d270_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/single_pillar_004__d270_s8.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_005",
+      "wind_id": "d000_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_005__d000_s3.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_005",
+      "wind_id": "d000_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_005__d000_s6.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_005",
+      "wind_id": "d090_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_005__d090_s3.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_005",
+      "wind_id": "d090_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_005__d090_s6.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_005",
+      "wind_id": "d180_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_005__d180_s3.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_005",
+      "wind_id": "d180_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_005__d180_s6.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_005",
+      "wind_id": "d270_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_005__d270_s3.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_005",
+      "wind_id": "d270_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/single_pillar_005__d270_s6.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_005",
+      "wind_id": "d045_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/single_pillar_005__d045_s4.5.npz"
+    },
+    {
+      "scene_id": "single_pillar_005",
+      "wind_id": "d135_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/single_pillar_005__d135_s4.5.npz"
+    },
+    {
+      "scene_id": "single_pillar_005",
+      "wind_id": "d225_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/single_pillar_005__d225_s4.5.npz"
+    },
+    {
+      "scene_id": "single_pillar_005",
+      "wind_id": "d315_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/single_pillar_005__d315_s4.5.npz"
+    },
+    {
+      "scene_id": "single_pillar_005",
+      "wind_id": "d000_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/single_pillar_005__d000_s8.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_005",
+      "wind_id": "d090_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/single_pillar_005__d090_s8.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_005",
+      "wind_id": "d180_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/single_pillar_005__d180_s8.0.npz"
+    },
+    {
+      "scene_id": "single_pillar_005",
+      "wind_id": "d270_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/single_pillar_005__d270_s8.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_000",
+      "wind_id": "d000_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_000__d000_s3.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_000",
+      "wind_id": "d000_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_000__d000_s6.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_000",
+      "wind_id": "d090_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_000__d090_s3.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_000",
+      "wind_id": "d090_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_000__d090_s6.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_000",
+      "wind_id": "d180_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_000__d180_s3.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_000",
+      "wind_id": "d180_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_000__d180_s6.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_000",
+      "wind_id": "d270_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_000__d270_s3.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_000",
+      "wind_id": "d270_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_000__d270_s6.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_000",
+      "wind_id": "d045_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/two_pillars_000__d045_s4.5.npz"
+    },
+    {
+      "scene_id": "two_pillars_000",
+      "wind_id": "d135_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/two_pillars_000__d135_s4.5.npz"
+    },
+    {
+      "scene_id": "two_pillars_000",
+      "wind_id": "d225_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/two_pillars_000__d225_s4.5.npz"
+    },
+    {
+      "scene_id": "two_pillars_000",
+      "wind_id": "d315_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/two_pillars_000__d315_s4.5.npz"
+    },
+    {
+      "scene_id": "two_pillars_000",
+      "wind_id": "d000_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/two_pillars_000__d000_s8.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_000",
+      "wind_id": "d090_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/two_pillars_000__d090_s8.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_000",
+      "wind_id": "d180_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/two_pillars_000__d180_s8.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_000",
+      "wind_id": "d270_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/two_pillars_000__d270_s8.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_001",
+      "wind_id": "d000_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_001__d000_s3.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_001",
+      "wind_id": "d000_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_001__d000_s6.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_001",
+      "wind_id": "d090_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_001__d090_s3.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_001",
+      "wind_id": "d090_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_001__d090_s6.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_001",
+      "wind_id": "d180_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_001__d180_s3.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_001",
+      "wind_id": "d180_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_001__d180_s6.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_001",
+      "wind_id": "d270_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_001__d270_s3.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_001",
+      "wind_id": "d270_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_001__d270_s6.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_001",
+      "wind_id": "d045_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/two_pillars_001__d045_s4.5.npz"
+    },
+    {
+      "scene_id": "two_pillars_001",
+      "wind_id": "d135_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/two_pillars_001__d135_s4.5.npz"
+    },
+    {
+      "scene_id": "two_pillars_001",
+      "wind_id": "d225_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/two_pillars_001__d225_s4.5.npz"
+    },
+    {
+      "scene_id": "two_pillars_001",
+      "wind_id": "d315_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/two_pillars_001__d315_s4.5.npz"
+    },
+    {
+      "scene_id": "two_pillars_001",
+      "wind_id": "d000_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/two_pillars_001__d000_s8.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_001",
+      "wind_id": "d090_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/two_pillars_001__d090_s8.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_001",
+      "wind_id": "d180_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/two_pillars_001__d180_s8.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_001",
+      "wind_id": "d270_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/two_pillars_001__d270_s8.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_002",
+      "wind_id": "d000_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_002__d000_s3.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_002",
+      "wind_id": "d000_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_002__d000_s6.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_002",
+      "wind_id": "d090_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_002__d090_s3.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_002",
+      "wind_id": "d090_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_002__d090_s6.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_002",
+      "wind_id": "d180_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_002__d180_s3.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_002",
+      "wind_id": "d180_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_002__d180_s6.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_002",
+      "wind_id": "d270_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_002__d270_s3.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_002",
+      "wind_id": "d270_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_002__d270_s6.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_002",
+      "wind_id": "d045_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/two_pillars_002__d045_s4.5.npz"
+    },
+    {
+      "scene_id": "two_pillars_002",
+      "wind_id": "d135_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/two_pillars_002__d135_s4.5.npz"
+    },
+    {
+      "scene_id": "two_pillars_002",
+      "wind_id": "d225_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/two_pillars_002__d225_s4.5.npz"
+    },
+    {
+      "scene_id": "two_pillars_002",
+      "wind_id": "d315_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/two_pillars_002__d315_s4.5.npz"
+    },
+    {
+      "scene_id": "two_pillars_002",
+      "wind_id": "d000_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/two_pillars_002__d000_s8.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_002",
+      "wind_id": "d090_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/two_pillars_002__d090_s8.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_002",
+      "wind_id": "d180_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/two_pillars_002__d180_s8.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_002",
+      "wind_id": "d270_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/two_pillars_002__d270_s8.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_003",
+      "wind_id": "d000_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_003__d000_s3.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_003",
+      "wind_id": "d000_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_003__d000_s6.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_003",
+      "wind_id": "d090_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_003__d090_s3.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_003",
+      "wind_id": "d090_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_003__d090_s6.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_003",
+      "wind_id": "d180_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_003__d180_s3.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_003",
+      "wind_id": "d180_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_003__d180_s6.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_003",
+      "wind_id": "d270_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_003__d270_s3.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_003",
+      "wind_id": "d270_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_003__d270_s6.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_003",
+      "wind_id": "d045_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/two_pillars_003__d045_s4.5.npz"
+    },
+    {
+      "scene_id": "two_pillars_003",
+      "wind_id": "d135_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/two_pillars_003__d135_s4.5.npz"
+    },
+    {
+      "scene_id": "two_pillars_003",
+      "wind_id": "d225_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/two_pillars_003__d225_s4.5.npz"
+    },
+    {
+      "scene_id": "two_pillars_003",
+      "wind_id": "d315_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/two_pillars_003__d315_s4.5.npz"
+    },
+    {
+      "scene_id": "two_pillars_003",
+      "wind_id": "d000_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/two_pillars_003__d000_s8.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_003",
+      "wind_id": "d090_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/two_pillars_003__d090_s8.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_003",
+      "wind_id": "d180_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/two_pillars_003__d180_s8.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_003",
+      "wind_id": "d270_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/two_pillars_003__d270_s8.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_004",
+      "wind_id": "d000_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_004__d000_s3.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_004",
+      "wind_id": "d000_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_004__d000_s6.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_004",
+      "wind_id": "d090_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_004__d090_s3.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_004",
+      "wind_id": "d090_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_004__d090_s6.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_004",
+      "wind_id": "d180_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_004__d180_s3.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_004",
+      "wind_id": "d180_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_004__d180_s6.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_004",
+      "wind_id": "d270_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_004__d270_s3.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_004",
+      "wind_id": "d270_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_004__d270_s6.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_004",
+      "wind_id": "d045_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/two_pillars_004__d045_s4.5.npz"
+    },
+    {
+      "scene_id": "two_pillars_004",
+      "wind_id": "d135_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/two_pillars_004__d135_s4.5.npz"
+    },
+    {
+      "scene_id": "two_pillars_004",
+      "wind_id": "d225_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/two_pillars_004__d225_s4.5.npz"
+    },
+    {
+      "scene_id": "two_pillars_004",
+      "wind_id": "d315_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/two_pillars_004__d315_s4.5.npz"
+    },
+    {
+      "scene_id": "two_pillars_004",
+      "wind_id": "d000_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/two_pillars_004__d000_s8.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_004",
+      "wind_id": "d090_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/two_pillars_004__d090_s8.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_004",
+      "wind_id": "d180_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/two_pillars_004__d180_s8.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_004",
+      "wind_id": "d270_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/two_pillars_004__d270_s8.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_005",
+      "wind_id": "d000_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_005__d000_s3.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_005",
+      "wind_id": "d000_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_005__d000_s6.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_005",
+      "wind_id": "d090_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_005__d090_s3.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_005",
+      "wind_id": "d090_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_005__d090_s6.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_005",
+      "wind_id": "d180_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_005__d180_s3.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_005",
+      "wind_id": "d180_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_005__d180_s6.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_005",
+      "wind_id": "d270_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_005__d270_s3.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_005",
+      "wind_id": "d270_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/two_pillars_005__d270_s6.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_005",
+      "wind_id": "d045_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/two_pillars_005__d045_s4.5.npz"
+    },
+    {
+      "scene_id": "two_pillars_005",
+      "wind_id": "d135_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/two_pillars_005__d135_s4.5.npz"
+    },
+    {
+      "scene_id": "two_pillars_005",
+      "wind_id": "d225_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/two_pillars_005__d225_s4.5.npz"
+    },
+    {
+      "scene_id": "two_pillars_005",
+      "wind_id": "d315_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/two_pillars_005__d315_s4.5.npz"
+    },
+    {
+      "scene_id": "two_pillars_005",
+      "wind_id": "d000_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/two_pillars_005__d000_s8.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_005",
+      "wind_id": "d090_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/two_pillars_005__d090_s8.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_005",
+      "wind_id": "d180_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/two_pillars_005__d180_s8.0.npz"
+    },
+    {
+      "scene_id": "two_pillars_005",
+      "wind_id": "d270_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/two_pillars_005__d270_s8.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_000",
+      "wind_id": "d000_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_000__d000_s3.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_000",
+      "wind_id": "d000_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_000__d000_s6.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_000",
+      "wind_id": "d090_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_000__d090_s3.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_000",
+      "wind_id": "d090_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_000__d090_s6.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_000",
+      "wind_id": "d180_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_000__d180_s3.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_000",
+      "wind_id": "d180_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_000__d180_s6.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_000",
+      "wind_id": "d270_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_000__d270_s3.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_000",
+      "wind_id": "d270_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_000__d270_s6.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_000",
+      "wind_id": "d045_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/narrow_corridor_000__d045_s4.5.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_000",
+      "wind_id": "d135_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/narrow_corridor_000__d135_s4.5.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_000",
+      "wind_id": "d225_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/narrow_corridor_000__d225_s4.5.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_000",
+      "wind_id": "d315_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/narrow_corridor_000__d315_s4.5.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_000",
+      "wind_id": "d000_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/narrow_corridor_000__d000_s8.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_000",
+      "wind_id": "d090_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/narrow_corridor_000__d090_s8.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_000",
+      "wind_id": "d180_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/narrow_corridor_000__d180_s8.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_000",
+      "wind_id": "d270_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/narrow_corridor_000__d270_s8.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_001",
+      "wind_id": "d000_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_001__d000_s3.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_001",
+      "wind_id": "d000_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_001__d000_s6.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_001",
+      "wind_id": "d090_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_001__d090_s3.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_001",
+      "wind_id": "d090_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_001__d090_s6.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_001",
+      "wind_id": "d180_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_001__d180_s3.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_001",
+      "wind_id": "d180_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_001__d180_s6.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_001",
+      "wind_id": "d270_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_001__d270_s3.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_001",
+      "wind_id": "d270_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_001__d270_s6.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_001",
+      "wind_id": "d045_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/narrow_corridor_001__d045_s4.5.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_001",
+      "wind_id": "d135_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/narrow_corridor_001__d135_s4.5.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_001",
+      "wind_id": "d225_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/narrow_corridor_001__d225_s4.5.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_001",
+      "wind_id": "d315_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/narrow_corridor_001__d315_s4.5.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_001",
+      "wind_id": "d000_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/narrow_corridor_001__d000_s8.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_001",
+      "wind_id": "d090_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/narrow_corridor_001__d090_s8.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_001",
+      "wind_id": "d180_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/narrow_corridor_001__d180_s8.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_001",
+      "wind_id": "d270_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/narrow_corridor_001__d270_s8.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_002",
+      "wind_id": "d000_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_002__d000_s3.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_002",
+      "wind_id": "d000_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_002__d000_s6.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_002",
+      "wind_id": "d090_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_002__d090_s3.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_002",
+      "wind_id": "d090_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_002__d090_s6.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_002",
+      "wind_id": "d180_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_002__d180_s3.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_002",
+      "wind_id": "d180_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_002__d180_s6.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_002",
+      "wind_id": "d270_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_002__d270_s3.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_002",
+      "wind_id": "d270_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_002__d270_s6.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_002",
+      "wind_id": "d045_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/narrow_corridor_002__d045_s4.5.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_002",
+      "wind_id": "d135_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/narrow_corridor_002__d135_s4.5.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_002",
+      "wind_id": "d225_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/narrow_corridor_002__d225_s4.5.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_002",
+      "wind_id": "d315_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/narrow_corridor_002__d315_s4.5.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_002",
+      "wind_id": "d000_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/narrow_corridor_002__d000_s8.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_002",
+      "wind_id": "d090_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/narrow_corridor_002__d090_s8.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_002",
+      "wind_id": "d180_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/narrow_corridor_002__d180_s8.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_002",
+      "wind_id": "d270_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/narrow_corridor_002__d270_s8.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_003",
+      "wind_id": "d000_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_003__d000_s3.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_003",
+      "wind_id": "d000_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_003__d000_s6.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_003",
+      "wind_id": "d090_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_003__d090_s3.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_003",
+      "wind_id": "d090_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_003__d090_s6.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_003",
+      "wind_id": "d180_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_003__d180_s3.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_003",
+      "wind_id": "d180_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_003__d180_s6.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_003",
+      "wind_id": "d270_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_003__d270_s3.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_003",
+      "wind_id": "d270_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_003__d270_s6.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_003",
+      "wind_id": "d045_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/narrow_corridor_003__d045_s4.5.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_003",
+      "wind_id": "d135_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/narrow_corridor_003__d135_s4.5.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_003",
+      "wind_id": "d225_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/narrow_corridor_003__d225_s4.5.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_003",
+      "wind_id": "d315_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/narrow_corridor_003__d315_s4.5.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_003",
+      "wind_id": "d000_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/narrow_corridor_003__d000_s8.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_003",
+      "wind_id": "d090_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/narrow_corridor_003__d090_s8.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_003",
+      "wind_id": "d180_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/narrow_corridor_003__d180_s8.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_003",
+      "wind_id": "d270_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/narrow_corridor_003__d270_s8.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_004",
+      "wind_id": "d000_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_004__d000_s3.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_004",
+      "wind_id": "d000_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_004__d000_s6.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_004",
+      "wind_id": "d090_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_004__d090_s3.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_004",
+      "wind_id": "d090_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_004__d090_s6.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_004",
+      "wind_id": "d180_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_004__d180_s3.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_004",
+      "wind_id": "d180_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_004__d180_s6.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_004",
+      "wind_id": "d270_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_004__d270_s3.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_004",
+      "wind_id": "d270_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_004__d270_s6.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_004",
+      "wind_id": "d045_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/narrow_corridor_004__d045_s4.5.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_004",
+      "wind_id": "d135_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/narrow_corridor_004__d135_s4.5.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_004",
+      "wind_id": "d225_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/narrow_corridor_004__d225_s4.5.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_004",
+      "wind_id": "d315_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/narrow_corridor_004__d315_s4.5.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_004",
+      "wind_id": "d000_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/narrow_corridor_004__d000_s8.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_004",
+      "wind_id": "d090_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/narrow_corridor_004__d090_s8.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_004",
+      "wind_id": "d180_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/narrow_corridor_004__d180_s8.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_004",
+      "wind_id": "d270_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/narrow_corridor_004__d270_s8.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_005",
+      "wind_id": "d000_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_005__d000_s3.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_005",
+      "wind_id": "d000_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_005__d000_s6.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_005",
+      "wind_id": "d090_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_005__d090_s3.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_005",
+      "wind_id": "d090_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_005__d090_s6.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_005",
+      "wind_id": "d180_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_005__d180_s3.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_005",
+      "wind_id": "d180_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_005__d180_s6.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_005",
+      "wind_id": "d270_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_005__d270_s3.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_005",
+      "wind_id": "d270_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/narrow_corridor_005__d270_s6.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_005",
+      "wind_id": "d045_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/narrow_corridor_005__d045_s4.5.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_005",
+      "wind_id": "d135_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/narrow_corridor_005__d135_s4.5.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_005",
+      "wind_id": "d225_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/narrow_corridor_005__d225_s4.5.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_005",
+      "wind_id": "d315_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/narrow_corridor_005__d315_s4.5.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_005",
+      "wind_id": "d000_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/narrow_corridor_005__d000_s8.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_005",
+      "wind_id": "d090_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/narrow_corridor_005__d090_s8.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_005",
+      "wind_id": "d180_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/narrow_corridor_005__d180_s8.0.npz"
+    },
+    {
+      "scene_id": "narrow_corridor_005",
+      "wind_id": "d270_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/narrow_corridor_005__d270_s8.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_000",
+      "wind_id": "d000_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_000__d000_s3.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_000",
+      "wind_id": "d000_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_000__d000_s6.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_000",
+      "wind_id": "d090_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_000__d090_s3.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_000",
+      "wind_id": "d090_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_000__d090_s6.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_000",
+      "wind_id": "d180_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_000__d180_s3.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_000",
+      "wind_id": "d180_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_000__d180_s6.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_000",
+      "wind_id": "d270_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_000__d270_s3.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_000",
+      "wind_id": "d270_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_000__d270_s6.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_000",
+      "wind_id": "d045_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/offset_pillars_000__d045_s4.5.npz"
+    },
+    {
+      "scene_id": "offset_pillars_000",
+      "wind_id": "d135_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/offset_pillars_000__d135_s4.5.npz"
+    },
+    {
+      "scene_id": "offset_pillars_000",
+      "wind_id": "d225_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/offset_pillars_000__d225_s4.5.npz"
+    },
+    {
+      "scene_id": "offset_pillars_000",
+      "wind_id": "d315_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/offset_pillars_000__d315_s4.5.npz"
+    },
+    {
+      "scene_id": "offset_pillars_000",
+      "wind_id": "d000_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/offset_pillars_000__d000_s8.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_000",
+      "wind_id": "d090_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/offset_pillars_000__d090_s8.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_000",
+      "wind_id": "d180_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/offset_pillars_000__d180_s8.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_000",
+      "wind_id": "d270_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/offset_pillars_000__d270_s8.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_001",
+      "wind_id": "d000_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_001__d000_s3.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_001",
+      "wind_id": "d000_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_001__d000_s6.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_001",
+      "wind_id": "d090_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_001__d090_s3.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_001",
+      "wind_id": "d090_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_001__d090_s6.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_001",
+      "wind_id": "d180_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_001__d180_s3.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_001",
+      "wind_id": "d180_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_001__d180_s6.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_001",
+      "wind_id": "d270_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_001__d270_s3.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_001",
+      "wind_id": "d270_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_001__d270_s6.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_001",
+      "wind_id": "d045_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/offset_pillars_001__d045_s4.5.npz"
+    },
+    {
+      "scene_id": "offset_pillars_001",
+      "wind_id": "d135_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/offset_pillars_001__d135_s4.5.npz"
+    },
+    {
+      "scene_id": "offset_pillars_001",
+      "wind_id": "d225_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/offset_pillars_001__d225_s4.5.npz"
+    },
+    {
+      "scene_id": "offset_pillars_001",
+      "wind_id": "d315_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/offset_pillars_001__d315_s4.5.npz"
+    },
+    {
+      "scene_id": "offset_pillars_001",
+      "wind_id": "d000_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/offset_pillars_001__d000_s8.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_001",
+      "wind_id": "d090_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/offset_pillars_001__d090_s8.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_001",
+      "wind_id": "d180_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/offset_pillars_001__d180_s8.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_001",
+      "wind_id": "d270_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/offset_pillars_001__d270_s8.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_002",
+      "wind_id": "d000_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_002__d000_s3.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_002",
+      "wind_id": "d000_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_002__d000_s6.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_002",
+      "wind_id": "d090_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_002__d090_s3.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_002",
+      "wind_id": "d090_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_002__d090_s6.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_002",
+      "wind_id": "d180_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_002__d180_s3.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_002",
+      "wind_id": "d180_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_002__d180_s6.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_002",
+      "wind_id": "d270_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_002__d270_s3.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_002",
+      "wind_id": "d270_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_002__d270_s6.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_002",
+      "wind_id": "d045_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/offset_pillars_002__d045_s4.5.npz"
+    },
+    {
+      "scene_id": "offset_pillars_002",
+      "wind_id": "d135_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/offset_pillars_002__d135_s4.5.npz"
+    },
+    {
+      "scene_id": "offset_pillars_002",
+      "wind_id": "d225_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/offset_pillars_002__d225_s4.5.npz"
+    },
+    {
+      "scene_id": "offset_pillars_002",
+      "wind_id": "d315_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/offset_pillars_002__d315_s4.5.npz"
+    },
+    {
+      "scene_id": "offset_pillars_002",
+      "wind_id": "d000_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/offset_pillars_002__d000_s8.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_002",
+      "wind_id": "d090_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/offset_pillars_002__d090_s8.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_002",
+      "wind_id": "d180_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/offset_pillars_002__d180_s8.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_002",
+      "wind_id": "d270_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/offset_pillars_002__d270_s8.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_003",
+      "wind_id": "d000_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_003__d000_s3.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_003",
+      "wind_id": "d000_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_003__d000_s6.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_003",
+      "wind_id": "d090_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_003__d090_s3.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_003",
+      "wind_id": "d090_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_003__d090_s6.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_003",
+      "wind_id": "d180_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_003__d180_s3.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_003",
+      "wind_id": "d180_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_003__d180_s6.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_003",
+      "wind_id": "d270_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_003__d270_s3.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_003",
+      "wind_id": "d270_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_003__d270_s6.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_003",
+      "wind_id": "d045_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/offset_pillars_003__d045_s4.5.npz"
+    },
+    {
+      "scene_id": "offset_pillars_003",
+      "wind_id": "d135_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/offset_pillars_003__d135_s4.5.npz"
+    },
+    {
+      "scene_id": "offset_pillars_003",
+      "wind_id": "d225_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/offset_pillars_003__d225_s4.5.npz"
+    },
+    {
+      "scene_id": "offset_pillars_003",
+      "wind_id": "d315_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/offset_pillars_003__d315_s4.5.npz"
+    },
+    {
+      "scene_id": "offset_pillars_003",
+      "wind_id": "d000_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/offset_pillars_003__d000_s8.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_003",
+      "wind_id": "d090_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/offset_pillars_003__d090_s8.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_003",
+      "wind_id": "d180_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/offset_pillars_003__d180_s8.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_003",
+      "wind_id": "d270_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/offset_pillars_003__d270_s8.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_004",
+      "wind_id": "d000_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_004__d000_s3.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_004",
+      "wind_id": "d000_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_004__d000_s6.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_004",
+      "wind_id": "d090_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_004__d090_s3.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_004",
+      "wind_id": "d090_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_004__d090_s6.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_004",
+      "wind_id": "d180_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_004__d180_s3.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_004",
+      "wind_id": "d180_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_004__d180_s6.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_004",
+      "wind_id": "d270_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_004__d270_s3.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_004",
+      "wind_id": "d270_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_004__d270_s6.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_004",
+      "wind_id": "d045_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/offset_pillars_004__d045_s4.5.npz"
+    },
+    {
+      "scene_id": "offset_pillars_004",
+      "wind_id": "d135_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/offset_pillars_004__d135_s4.5.npz"
+    },
+    {
+      "scene_id": "offset_pillars_004",
+      "wind_id": "d225_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/offset_pillars_004__d225_s4.5.npz"
+    },
+    {
+      "scene_id": "offset_pillars_004",
+      "wind_id": "d315_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/offset_pillars_004__d315_s4.5.npz"
+    },
+    {
+      "scene_id": "offset_pillars_004",
+      "wind_id": "d000_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/offset_pillars_004__d000_s8.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_004",
+      "wind_id": "d090_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/offset_pillars_004__d090_s8.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_004",
+      "wind_id": "d180_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/offset_pillars_004__d180_s8.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_004",
+      "wind_id": "d270_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/offset_pillars_004__d270_s8.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_005",
+      "wind_id": "d000_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_005__d000_s3.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_005",
+      "wind_id": "d000_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_005__d000_s6.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_005",
+      "wind_id": "d090_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_005__d090_s3.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_005",
+      "wind_id": "d090_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_005__d090_s6.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_005",
+      "wind_id": "d180_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_005__d180_s3.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_005",
+      "wind_id": "d180_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_005__d180_s6.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_005",
+      "wind_id": "d270_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_005__d270_s3.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_005",
+      "wind_id": "d270_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/offset_pillars_005__d270_s6.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_005",
+      "wind_id": "d045_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/offset_pillars_005__d045_s4.5.npz"
+    },
+    {
+      "scene_id": "offset_pillars_005",
+      "wind_id": "d135_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/offset_pillars_005__d135_s4.5.npz"
+    },
+    {
+      "scene_id": "offset_pillars_005",
+      "wind_id": "d225_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/offset_pillars_005__d225_s4.5.npz"
+    },
+    {
+      "scene_id": "offset_pillars_005",
+      "wind_id": "d315_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/offset_pillars_005__d315_s4.5.npz"
+    },
+    {
+      "scene_id": "offset_pillars_005",
+      "wind_id": "d000_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/offset_pillars_005__d000_s8.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_005",
+      "wind_id": "d090_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/offset_pillars_005__d090_s8.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_005",
+      "wind_id": "d180_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/offset_pillars_005__d180_s8.0.npz"
+    },
+    {
+      "scene_id": "offset_pillars_005",
+      "wind_id": "d270_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/offset_pillars_005__d270_s8.0.npz"
+    },
+    {
+      "scene_id": "l_shape_000",
+      "wind_id": "d000_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_000__d000_s3.0.npz"
+    },
+    {
+      "scene_id": "l_shape_000",
+      "wind_id": "d000_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_000__d000_s6.0.npz"
+    },
+    {
+      "scene_id": "l_shape_000",
+      "wind_id": "d090_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_000__d090_s3.0.npz"
+    },
+    {
+      "scene_id": "l_shape_000",
+      "wind_id": "d090_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_000__d090_s6.0.npz"
+    },
+    {
+      "scene_id": "l_shape_000",
+      "wind_id": "d180_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_000__d180_s3.0.npz"
+    },
+    {
+      "scene_id": "l_shape_000",
+      "wind_id": "d180_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_000__d180_s6.0.npz"
+    },
+    {
+      "scene_id": "l_shape_000",
+      "wind_id": "d270_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_000__d270_s3.0.npz"
+    },
+    {
+      "scene_id": "l_shape_000",
+      "wind_id": "d270_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_000__d270_s6.0.npz"
+    },
+    {
+      "scene_id": "l_shape_000",
+      "wind_id": "d045_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/l_shape_000__d045_s4.5.npz"
+    },
+    {
+      "scene_id": "l_shape_000",
+      "wind_id": "d135_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/l_shape_000__d135_s4.5.npz"
+    },
+    {
+      "scene_id": "l_shape_000",
+      "wind_id": "d225_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/l_shape_000__d225_s4.5.npz"
+    },
+    {
+      "scene_id": "l_shape_000",
+      "wind_id": "d315_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/l_shape_000__d315_s4.5.npz"
+    },
+    {
+      "scene_id": "l_shape_000",
+      "wind_id": "d000_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/l_shape_000__d000_s8.0.npz"
+    },
+    {
+      "scene_id": "l_shape_000",
+      "wind_id": "d090_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/l_shape_000__d090_s8.0.npz"
+    },
+    {
+      "scene_id": "l_shape_000",
+      "wind_id": "d180_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/l_shape_000__d180_s8.0.npz"
+    },
+    {
+      "scene_id": "l_shape_000",
+      "wind_id": "d270_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/l_shape_000__d270_s8.0.npz"
+    },
+    {
+      "scene_id": "l_shape_001",
+      "wind_id": "d000_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_001__d000_s3.0.npz"
+    },
+    {
+      "scene_id": "l_shape_001",
+      "wind_id": "d000_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_001__d000_s6.0.npz"
+    },
+    {
+      "scene_id": "l_shape_001",
+      "wind_id": "d090_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_001__d090_s3.0.npz"
+    },
+    {
+      "scene_id": "l_shape_001",
+      "wind_id": "d090_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_001__d090_s6.0.npz"
+    },
+    {
+      "scene_id": "l_shape_001",
+      "wind_id": "d180_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_001__d180_s3.0.npz"
+    },
+    {
+      "scene_id": "l_shape_001",
+      "wind_id": "d180_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_001__d180_s6.0.npz"
+    },
+    {
+      "scene_id": "l_shape_001",
+      "wind_id": "d270_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_001__d270_s3.0.npz"
+    },
+    {
+      "scene_id": "l_shape_001",
+      "wind_id": "d270_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_001__d270_s6.0.npz"
+    },
+    {
+      "scene_id": "l_shape_001",
+      "wind_id": "d045_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/l_shape_001__d045_s4.5.npz"
+    },
+    {
+      "scene_id": "l_shape_001",
+      "wind_id": "d135_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/l_shape_001__d135_s4.5.npz"
+    },
+    {
+      "scene_id": "l_shape_001",
+      "wind_id": "d225_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/l_shape_001__d225_s4.5.npz"
+    },
+    {
+      "scene_id": "l_shape_001",
+      "wind_id": "d315_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/l_shape_001__d315_s4.5.npz"
+    },
+    {
+      "scene_id": "l_shape_001",
+      "wind_id": "d000_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/l_shape_001__d000_s8.0.npz"
+    },
+    {
+      "scene_id": "l_shape_001",
+      "wind_id": "d090_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/l_shape_001__d090_s8.0.npz"
+    },
+    {
+      "scene_id": "l_shape_001",
+      "wind_id": "d180_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/l_shape_001__d180_s8.0.npz"
+    },
+    {
+      "scene_id": "l_shape_001",
+      "wind_id": "d270_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/l_shape_001__d270_s8.0.npz"
+    },
+    {
+      "scene_id": "l_shape_002",
+      "wind_id": "d000_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_002__d000_s3.0.npz"
+    },
+    {
+      "scene_id": "l_shape_002",
+      "wind_id": "d000_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_002__d000_s6.0.npz"
+    },
+    {
+      "scene_id": "l_shape_002",
+      "wind_id": "d090_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_002__d090_s3.0.npz"
+    },
+    {
+      "scene_id": "l_shape_002",
+      "wind_id": "d090_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_002__d090_s6.0.npz"
+    },
+    {
+      "scene_id": "l_shape_002",
+      "wind_id": "d180_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_002__d180_s3.0.npz"
+    },
+    {
+      "scene_id": "l_shape_002",
+      "wind_id": "d180_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_002__d180_s6.0.npz"
+    },
+    {
+      "scene_id": "l_shape_002",
+      "wind_id": "d270_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_002__d270_s3.0.npz"
+    },
+    {
+      "scene_id": "l_shape_002",
+      "wind_id": "d270_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_002__d270_s6.0.npz"
+    },
+    {
+      "scene_id": "l_shape_002",
+      "wind_id": "d045_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/l_shape_002__d045_s4.5.npz"
+    },
+    {
+      "scene_id": "l_shape_002",
+      "wind_id": "d135_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/l_shape_002__d135_s4.5.npz"
+    },
+    {
+      "scene_id": "l_shape_002",
+      "wind_id": "d225_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/l_shape_002__d225_s4.5.npz"
+    },
+    {
+      "scene_id": "l_shape_002",
+      "wind_id": "d315_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/l_shape_002__d315_s4.5.npz"
+    },
+    {
+      "scene_id": "l_shape_002",
+      "wind_id": "d000_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/l_shape_002__d000_s8.0.npz"
+    },
+    {
+      "scene_id": "l_shape_002",
+      "wind_id": "d090_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/l_shape_002__d090_s8.0.npz"
+    },
+    {
+      "scene_id": "l_shape_002",
+      "wind_id": "d180_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/l_shape_002__d180_s8.0.npz"
+    },
+    {
+      "scene_id": "l_shape_002",
+      "wind_id": "d270_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/l_shape_002__d270_s8.0.npz"
+    },
+    {
+      "scene_id": "l_shape_003",
+      "wind_id": "d000_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_003__d000_s3.0.npz"
+    },
+    {
+      "scene_id": "l_shape_003",
+      "wind_id": "d000_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_003__d000_s6.0.npz"
+    },
+    {
+      "scene_id": "l_shape_003",
+      "wind_id": "d090_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_003__d090_s3.0.npz"
+    },
+    {
+      "scene_id": "l_shape_003",
+      "wind_id": "d090_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_003__d090_s6.0.npz"
+    },
+    {
+      "scene_id": "l_shape_003",
+      "wind_id": "d180_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_003__d180_s3.0.npz"
+    },
+    {
+      "scene_id": "l_shape_003",
+      "wind_id": "d180_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_003__d180_s6.0.npz"
+    },
+    {
+      "scene_id": "l_shape_003",
+      "wind_id": "d270_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_003__d270_s3.0.npz"
+    },
+    {
+      "scene_id": "l_shape_003",
+      "wind_id": "d270_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_003__d270_s6.0.npz"
+    },
+    {
+      "scene_id": "l_shape_003",
+      "wind_id": "d045_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/l_shape_003__d045_s4.5.npz"
+    },
+    {
+      "scene_id": "l_shape_003",
+      "wind_id": "d135_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/l_shape_003__d135_s4.5.npz"
+    },
+    {
+      "scene_id": "l_shape_003",
+      "wind_id": "d225_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/l_shape_003__d225_s4.5.npz"
+    },
+    {
+      "scene_id": "l_shape_003",
+      "wind_id": "d315_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/l_shape_003__d315_s4.5.npz"
+    },
+    {
+      "scene_id": "l_shape_003",
+      "wind_id": "d000_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/l_shape_003__d000_s8.0.npz"
+    },
+    {
+      "scene_id": "l_shape_003",
+      "wind_id": "d090_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/l_shape_003__d090_s8.0.npz"
+    },
+    {
+      "scene_id": "l_shape_003",
+      "wind_id": "d180_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/l_shape_003__d180_s8.0.npz"
+    },
+    {
+      "scene_id": "l_shape_003",
+      "wind_id": "d270_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/l_shape_003__d270_s8.0.npz"
+    },
+    {
+      "scene_id": "l_shape_004",
+      "wind_id": "d000_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_004__d000_s3.0.npz"
+    },
+    {
+      "scene_id": "l_shape_004",
+      "wind_id": "d000_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_004__d000_s6.0.npz"
+    },
+    {
+      "scene_id": "l_shape_004",
+      "wind_id": "d090_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_004__d090_s3.0.npz"
+    },
+    {
+      "scene_id": "l_shape_004",
+      "wind_id": "d090_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_004__d090_s6.0.npz"
+    },
+    {
+      "scene_id": "l_shape_004",
+      "wind_id": "d180_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_004__d180_s3.0.npz"
+    },
+    {
+      "scene_id": "l_shape_004",
+      "wind_id": "d180_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_004__d180_s6.0.npz"
+    },
+    {
+      "scene_id": "l_shape_004",
+      "wind_id": "d270_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_004__d270_s3.0.npz"
+    },
+    {
+      "scene_id": "l_shape_004",
+      "wind_id": "d270_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_004__d270_s6.0.npz"
+    },
+    {
+      "scene_id": "l_shape_004",
+      "wind_id": "d045_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/l_shape_004__d045_s4.5.npz"
+    },
+    {
+      "scene_id": "l_shape_004",
+      "wind_id": "d135_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/l_shape_004__d135_s4.5.npz"
+    },
+    {
+      "scene_id": "l_shape_004",
+      "wind_id": "d225_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/l_shape_004__d225_s4.5.npz"
+    },
+    {
+      "scene_id": "l_shape_004",
+      "wind_id": "d315_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/l_shape_004__d315_s4.5.npz"
+    },
+    {
+      "scene_id": "l_shape_004",
+      "wind_id": "d000_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/l_shape_004__d000_s8.0.npz"
+    },
+    {
+      "scene_id": "l_shape_004",
+      "wind_id": "d090_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/l_shape_004__d090_s8.0.npz"
+    },
+    {
+      "scene_id": "l_shape_004",
+      "wind_id": "d180_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/l_shape_004__d180_s8.0.npz"
+    },
+    {
+      "scene_id": "l_shape_004",
+      "wind_id": "d270_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/l_shape_004__d270_s8.0.npz"
+    },
+    {
+      "scene_id": "l_shape_005",
+      "wind_id": "d000_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_005__d000_s3.0.npz"
+    },
+    {
+      "scene_id": "l_shape_005",
+      "wind_id": "d000_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_005__d000_s6.0.npz"
+    },
+    {
+      "scene_id": "l_shape_005",
+      "wind_id": "d090_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_005__d090_s3.0.npz"
+    },
+    {
+      "scene_id": "l_shape_005",
+      "wind_id": "d090_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_005__d090_s6.0.npz"
+    },
+    {
+      "scene_id": "l_shape_005",
+      "wind_id": "d180_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_005__d180_s3.0.npz"
+    },
+    {
+      "scene_id": "l_shape_005",
+      "wind_id": "d180_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_005__d180_s6.0.npz"
+    },
+    {
+      "scene_id": "l_shape_005",
+      "wind_id": "d270_s3.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_005__d270_s3.0.npz"
+    },
+    {
+      "scene_id": "l_shape_005",
+      "wind_id": "d270_s6.0",
+      "tag": "train",
+      "path": "data/wind_fields/l_shape_005__d270_s6.0.npz"
+    },
+    {
+      "scene_id": "l_shape_005",
+      "wind_id": "d045_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/l_shape_005__d045_s4.5.npz"
+    },
+    {
+      "scene_id": "l_shape_005",
+      "wind_id": "d135_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/l_shape_005__d135_s4.5.npz"
+    },
+    {
+      "scene_id": "l_shape_005",
+      "wind_id": "d225_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/l_shape_005__d225_s4.5.npz"
+    },
+    {
+      "scene_id": "l_shape_005",
+      "wind_id": "d315_s4.5",
+      "tag": "ood",
+      "path": "data/wind_fields/l_shape_005__d315_s4.5.npz"
+    },
+    {
+      "scene_id": "l_shape_005",
+      "wind_id": "d000_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/l_shape_005__d000_s8.0.npz"
+    },
+    {
+      "scene_id": "l_shape_005",
+      "wind_id": "d090_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/l_shape_005__d090_s8.0.npz"
+    },
+    {
+      "scene_id": "l_shape_005",
+      "wind_id": "d180_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/l_shape_005__d180_s8.0.npz"
+    },
+    {
+      "scene_id": "l_shape_005",
+      "wind_id": "d270_s8.0",
+      "tag": "ood_extrap",
+      "path": "data/wind_fields/l_shape_005__d270_s8.0.npz"
+    }
+  ]
+}

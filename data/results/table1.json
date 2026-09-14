@@ -1,0 +1,37 @@
+{
+  "means": [
+    {
+      "family": "scalar",
+      "tier": "pooled",
+      "forecast_rmse": 0.3055949192179691,
+      "held_regret": 0.016285316761079482,
+      "nominal_regret": 0.002420518110175181,
+      "observer_regret": 0.0029027764914966773
+    },
+    {
+      "family": "affine",
+      "tier": "pooled",
+      "forecast_rmse": 0.26514289288125864,
+      "held_regret": 0.028945104570553135,
+      "nominal_regret": 0.006121137312392431,
+      "observer_regret": 0.008891827779509517
+    },
+    {
+      "family": "additive",
+      "tier": "pooled",
+      "forecast_rmse": 0.29897802655232314,
+      "held_regret": 0.028272758294836973,
+      "nominal_regret": 0.005721096285077863,
+      "observer_regret": 0.008223106457877088
+    },
+    {
+      "family": "joint",
+      "tier": "pooled",
+      "forecast_rmse": 0.2874259633806533,
+      "held_regret": 0.028549803987280034,
+      "nominal_regret": 0.0058381070056177375,
+      "observer_regret": 0.008274381816015922
+    }
+  ],
+  "common_valid": 106
+}

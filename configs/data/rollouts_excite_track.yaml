@@ -1,0 +1,14 @@
+# Matched-excitation dataset (spec P1-A): identical scene/wind coverage and
+# episode count to the mixed train set, but every train replicate is "tracking".
+out_dir: data/episodes_excite_track
+manifest: data/manifests/episodes_excite_track.json
+duration_s: 12.0
+episodes_per_pair: 2
+batch_envs: 16
+device: cuda
+depth_hw: [64, 64]
+patch_size: 16
+patch_spacing: 0.5
+base_seed: 21000
+force_mode: tracking
+train_only: true

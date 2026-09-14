@@ -1,0 +1,17 @@
+# Eval-only speed-stress tier (10 m/s), isolated from the core benchmark:
+# fields share data/wind_fields but are listed in a SEPARATE manifest so the
+# core split machinery (train.py build_splits) never sees them.
+# (12 m/s tier: planar_stress12.yaml — needs tau=0.6 for BGK stability.)
+resolution_m: 0.25
+n_steps: 8000
+avg_window: 2000
+device: cuda
+out_dir: data/wind_fields
+manifest: data/manifests/wind_fields_stress10.json
+
+train_conditions:           # empty: stress tiers are never trained on
+  directions_deg: []
+  speeds_mps: []
+ood_conditions:             # tag "ood" -> collect_rollouts makes eval-only reps
+  directions_deg: [0, 90, 180, 270]
+  speeds_mps: [10.0]

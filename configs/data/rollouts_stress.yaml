@@ -1,0 +1,12 @@
+# Eval-only episodes for the 10/12 m/s stress tiers. Separate manifest so the
+# core benchmark splits (data/manifests/episodes.json) are untouched.
+out_dir: data/episodes
+manifest: data/manifests/episodes_stress.json
+duration_s: 12.0
+episodes_per_pair: 2
+batch_envs: 16
+device: cuda
+depth_hw: [64, 64]
+patch_size: 16
+patch_spacing: 0.5
+base_seed: 9000

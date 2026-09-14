@@ -1,0 +1,6997 @@
+{
+  "regime": "lag_3",
+  "recipe": "supervised",
+  "model_seed": 2,
+  "stage": "development",
+  "feature_dim": 338,
+  "branch_tasks": [
+    {
+      "task": "branch_0000",
+      "scene": "single_pillar_002",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 0,
+      "goal_yaw": [
+        1.3193022160777637,
+        -1.503143994426765
+      ]
+    },
+    {
+      "task": "branch_0001",
+      "scene": "single_pillar_002",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 1,
+      "goal_yaw": [
+        -0.04435742185021278,
+        1.9995080002785817
+      ]
+    },
+    {
+      "task": "branch_0002",
+      "scene": "two_pillars_003",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 2,
+      "goal_yaw": [
+        -1.3817702631518534,
+        -1.445929098472014
+      ]
+    },
+    {
+      "task": "branch_0003",
+      "scene": "two_pillars_003",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 3,
+      "goal_yaw": [
+        1.3072493836495618,
+        1.5136376327619496
+      ]
+    },
+    {
+      "task": "branch_0004",
+      "scene": "single_pillar_000",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 4,
+      "goal_yaw": [
+        1.8564738200714825,
+        0.7439792186845875
+      ]
+    },
+    {
+      "task": "branch_0005",
+      "scene": "single_pillar_000",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 5,
+      "goal_yaw": [
+        -1.00472404872134,
+        -1.7293148328807333
+      ]
+    },
+    {
+      "task": "branch_0006",
+      "scene": "narrow_corridor_001",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 6,
+      "goal_yaw": [
+        -1.5992739671153402,
+        1.20096743249525
+      ]
+    },
+    {
+      "task": "branch_0007",
+      "scene": "narrow_corridor_001",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 7,
+      "goal_yaw": [
+        0.21755404869433603,
+        -1.988132309007195
+      ]
+    },
+    {
+      "task": "branch_0008",
+      "scene": "single_pillar_000",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 8,
+      "goal_yaw": [
+        -1.988187715240182,
+        -0.2170474481184472
+      ]
+    },
+    {
+      "task": "branch_0009",
+      "scene": "single_pillar_000",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 9,
+      "goal_yaw": [
+        -1.9265032819045091,
+        0.537201144691797
+      ]
+    },
+    {
+      "task": "branch_0010",
+      "scene": "offset_pillars_000",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 10,
+      "goal_yaw": [
+        0.8132906217120576,
+        1.8271722064327085
+      ]
+    },
+    {
+      "task": "branch_0011",
+      "scene": "offset_pillars_000",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 11,
+      "goal_yaw": [
+        1.6711781660866494,
+        1.0987099710811443
+      ]
+    },
+    {
+      "task": "branch_0012",
+      "scene": "l_shape_000",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 12,
+      "goal_yaw": [
+        -1.953345347300602,
+        0.4294672915549369
+      ]
+    },
+    {
+      "task": "branch_0013",
+      "scene": "l_shape_000",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 13,
+      "goal_yaw": [
+        0.550597023131747,
+        1.9227176305438864
+      ]
+    },
+    {
+      "task": "branch_0014",
+      "scene": "offset_pillars_002",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 14,
+      "goal_yaw": [
+        -1.392646492660496,
+        -1.4354566998280378
+      ]
+    },
+    {
+      "task": "branch_0015",
+      "scene": "offset_pillars_002",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 15,
+      "goal_yaw": [
+        0.6568415027601494,
+        1.889063051393249
+      ]
+    },
+    {
+      "task": "branch_0016",
+      "scene": "single_pillar_002",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 16,
+      "goal_yaw": [
+        -0.9089252861547326,
+        -1.7815315763629591
+      ]
+    },
+    {
+      "task": "branch_0017",
+      "scene": "single_pillar_002",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 17,
+      "goal_yaw": [
+        0.9761027895564026,
+        1.7456298100661163
+      ]
+    },
+    {
+      "task": "branch_0018",
+      "scene": "narrow_corridor_002",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 18,
+      "goal_yaw": [
+        0.9468716005275863,
+        1.7616566961778817
+      ]
+    },
+    {
+      "task": "branch_0019",
+      "scene": "narrow_corridor_002",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 19,
+      "goal_yaw": [
+        1.7538927659330084,
+        0.9611764810168705
+      ]
+    },
+    {
+      "task": "branch_0020",
+      "scene": "narrow_corridor_000",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 20,
+      "goal_yaw": [
+        -1.98706094842468,
+        0.22713121042126672
+      ]
+    },
+    {
+      "task": "branch_0021",
+      "scene": "narrow_corridor_000",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 21,
+      "goal_yaw": [
+        -1.0501480780344299,
+        1.702113051574783
+      ]
+    },
+    {
+      "task": "branch_0022",
+      "scene": "two_pillars_003",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 22,
+      "goal_yaw": [
+        -0.5253791302127774,
+        -1.9297607622792838
+      ]
+    },
+    {
+      "task": "branch_0023",
+      "scene": "two_pillars_003",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 23,
+      "goal_yaw": [
+        -1.633377051368831,
+        -1.1541574649612263
+      ]
+    },
+    {
+      "task": "branch_0024",
+      "scene": "two_pillars_003",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 24,
+      "goal_yaw": [
+        -1.5354828612206228,
+        1.2815194729859662
+      ]
+    },
+    {
+      "task": "branch_0025",
+      "scene": "two_pillars_003",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 25,
+      "goal_yaw": [
+        -1.3656316607658339,
+        -1.4611810135925931
+      ]
+    },
+    {
+      "task": "branch_0026",
+      "scene": "l_shape_000",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 26,
+      "goal_yaw": [
+        1.282773495742874,
+        -1.5344354609029387
+      ]
+    },
+    {
+      "task": "branch_0027",
+      "scene": "l_shape_000",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 27,
+      "goal_yaw": [
+        1.9795515819902727,
+        -0.28526363984411285
+      ]
+    },
+    {
+      "task": "branch_0028",
+      "scene": "two_pillars_001",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 28,
+      "goal_yaw": [
+        1.9082678096446266,
+        -0.598760403248502
+      ]
+    },
+    {
+      "task": "branch_0029",
+      "scene": "two_pillars_001",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 29,
+      "goal_yaw": [
+        -0.40881326688123754,
+        -1.9577720810364865
+      ]
+    },
+    {
+      "task": "branch_0030",
+      "scene": "two_pillars_000",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 30,
+      "goal_yaw": [
+        0.9476912221882334,
+        -1.7612158984856996
+      ]
+    },
+    {
+      "task": "branch_0031",
+      "scene": "two_pillars_000",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 31,
+      "goal_yaw": [
+        1.6928641003702316,
+        1.0649935681111677
+      ]
+    },
+    {
+      "task": "branch_0032",
+      "scene": "narrow_corridor_001",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 32,
+      "goal_yaw": [
+        -1.999713318756568,
+        0.03385887384411876
+      ]
+    },
+    {
+      "task": "branch_0033",
+      "scene": "narrow_corridor_001",
+      "tier": "train",
+      "mode": "perturbation",
+      "excluded_prefix_collision": true
+    },
+    {
+      "task": "branch_0034",
+      "scene": "narrow_corridor_002",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 33,
+      "goal_yaw": [
+        -0.07380031741722794,
+        1.9986378895918886
+      ]
+    },
+    {
+      "task": "branch_0035",
+      "scene": "narrow_corridor_002",
+      "tier": "train",
+      "mode": "perturbation",
+      "excluded_prefix_collision": true
+    },
+    {
+      "task": "branch_0036",
+      "scene": "two_pillars_002",
+      "tier": "train",
+      "mode": "tracking",
+      "excluded_prefix_collision": true
+    },
+    {
+      "task": "branch_0037",
+      "scene": "two_pillars_002",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 34,
+      "goal_yaw": [
+        -0.45968469617729524,
+        1.9464557781598242
+      ]
+    },
+    {
+      "task": "branch_0038",
+      "scene": "l_shape_003",
+      "tier": "train",
+      "mode": "tracking",
+      "excluded_prefix_collision": true
+    },
+    {
+      "task": "branch_0039",
+      "scene": "l_shape_003",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 35,
+      "goal_yaw": [
+        1.9824755168025805,
+        0.2641791203071535
+      ]
+    },
+    {
+      "task": "branch_0040",
+      "scene": "single_pillar_001",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 36,
+      "goal_yaw": [
+        -1.9842810175263235,
+        0.2502575779453353
+      ]
+    },
+    {
+      "task": "branch_0041",
+      "scene": "single_pillar_001",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 37,
+      "goal_yaw": [
+        -1.1187455282005472,
+        -1.6578324252261036
+      ]
+    },
+    {
+      "task": "branch_0042",
+      "scene": "single_pillar_001",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 38,
+      "goal_yaw": [
+        0.7135293388661725,
+        1.8683885948925651
+      ]
+    },
+    {
+      "task": "branch_0043",
+      "scene": "single_pillar_001",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 39,
+      "goal_yaw": [
+        -0.11686459209588082,
+        -1.9965827892695096
+      ]
+    },
+    {
+      "task": "branch_0044",
+      "scene": "two_pillars_000",
+      "tier": "train",
+      "mode": "tracking",
+      "excluded_prefix_collision": true
+    },
+    {
+      "task": "branch_0045",
+      "scene": "two_pillars_000",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 40,
+      "goal_yaw": [
+        0.018406666507593046,
+        1.9999153255770588
+      ]
+    },
+    {
+      "task": "branch_0046",
+      "scene": "narrow_corridor_001",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 41,
+      "goal_yaw": [
+        1.5198577199354297,
+        1.3000125179062765
+      ]
+    },
+    {
+      "task": "branch_0047",
+      "scene": "narrow_corridor_001",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 42,
+      "goal_yaw": [
+        -1.9695112977902482,
+        -0.3478869134393836
+      ]
+    },
+    {
+      "task": "branch_0048",
+      "scene": "l_shape_000",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 43,
+      "goal_yaw": [
+        0.14085523916586565,
+        -1.9950337619328737
+      ]
+    },
+    {
+      "task": "branch_0049",
+      "scene": "l_shape_000",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 44,
+      "goal_yaw": [
+        -1.4052863720649547,
+        -1.4230847999864231
+      ]
+    },
+    {
+      "task": "branch_0050",
+      "scene": "narrow_corridor_001",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 45,
+      "goal_yaw": [
+        1.2330238637551272,
+        1.5746910937738707
+      ]
+    },
+    {
+      "task": "branch_0051",
+      "scene": "narrow_corridor_001",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 46,
+      "goal_yaw": [
+        0.33775873614868984,
+        1.9712735087552302
+      ]
+    },
+    {
+      "task": "branch_0052",
+      "scene": "offset_pillars_000",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 47,
+      "goal_yaw": [
+        -0.6464572778073259,
+        -1.892641827354915
+      ]
+    },
+    {
+      "task": "branch_0053",
+      "scene": "offset_pillars_000",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 48,
+      "goal_yaw": [
+        -1.9998654660321564,
+        0.023194693550547995
+      ]
+    },
+    {
+      "task": "branch_0054",
+      "scene": "narrow_corridor_002",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 49,
+      "goal_yaw": [
+        -1.5990677682401737,
+        -1.2012419514047197
+      ]
+    },
+    {
+      "task": "branch_0055",
+      "scene": "narrow_corridor_002",
+      "tier": "train",
+      "mode": "perturbation",
+      "excluded_prefix_collision": true
+    },
+    {
+      "task": "branch_0056",
+      "scene": "offset_pillars_000",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 50,
+      "goal_yaw": [
+        -1.8429269783771998,
+        -0.7769299444796776
+      ]
+    },
+    {
+      "task": "branch_0057",
+      "scene": "offset_pillars_000",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 51,
+      "goal_yaw": [
+        -0.14843759691770655,
+        -1.9944839719948662
+      ]
+    },
+    {
+      "task": "branch_0058",
+      "scene": "offset_pillars_003",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 52,
+      "goal_yaw": [
+        -0.18034837233018913,
+        1.9918519797971739
+      ]
+    },
+    {
+      "task": "branch_0059",
+      "scene": "offset_pillars_003",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 53,
+      "goal_yaw": [
+        1.7571672380778698,
+        0.9551770379593715
+      ]
+    },
+    {
+      "task": "branch_0060",
+      "scene": "offset_pillars_001",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 54,
+      "goal_yaw": [
+        0.18651140416595638,
+        -1.9912844115705326
+      ]
+    },
+    {
+      "task": "branch_0061",
+      "scene": "offset_pillars_001",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 55,
+      "goal_yaw": [
+        -0.44471417950623915,
+        -1.9499305750803562
+      ]
+    },
+    {
+      "task": "branch_0062",
+      "scene": "single_pillar_003",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 56,
+      "goal_yaw": [
+        1.20714526971354,
+        1.5946160442441224
+      ]
+    },
+    {
+      "task": "branch_0063",
+      "scene": "single_pillar_003",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 57,
+      "goal_yaw": [
+        -1.187602689712032,
+        1.6092233838238181
+      ]
+    },
+    {
+      "task": "branch_0064",
+      "scene": "two_pillars_003",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 58,
+      "goal_yaw": [
+        1.7987347495983836,
+        -0.8743874684325195
+      ]
+    },
+    {
+      "task": "branch_0065",
+      "scene": "two_pillars_003",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 59,
+      "goal_yaw": [
+        0.6991682216157772,
+        1.8738099728322506
+      ]
+    },
+    {
+      "task": "branch_0066",
+      "scene": "offset_pillars_001",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 60,
+      "goal_yaw": [
+        1.9995802561430909,
+        -0.040972272191948725
+      ]
+    },
+    {
+      "task": "branch_0067",
+      "scene": "offset_pillars_001",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 61,
+      "goal_yaw": [
+        1.3890227558617931,
+        1.4389634509024471
+      ]
+    },
+    {
+      "task": "branch_0068",
+      "scene": "offset_pillars_000",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 62,
+      "goal_yaw": [
+        1.5297515724630626,
+        -1.2883555316531166
+      ]
+    },
+    {
+      "task": "branch_0069",
+      "scene": "offset_pillars_000",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 63,
+      "goal_yaw": [
+        -1.6468968996928208,
+        1.1347821912717613
+      ]
+    },
+    {
+      "task": "branch_0070",
+      "scene": "narrow_corridor_003",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 64,
+      "goal_yaw": [
+        1.9702320504857815,
+        0.3437812572650617
+      ]
+    },
+    {
+      "task": "branch_0071",
+      "scene": "narrow_corridor_003",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 65,
+      "goal_yaw": [
+        -1.998388506635559,
+        0.0802694148730165
+      ]
+    },
+    {
+      "task": "branch_0072",
+      "scene": "l_shape_001",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 66,
+      "goal_yaw": [
+        -0.41020393225485474,
+        -1.9574812118178846
+      ]
+    },
+    {
+      "task": "branch_0073",
+      "scene": "l_shape_001",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 67,
+      "goal_yaw": [
+        -0.8183475944342105,
+        -1.8249129176892451
+      ]
+    },
+    {
+      "task": "branch_0074",
+      "scene": "narrow_corridor_000",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 68,
+      "goal_yaw": [
+        1.7868976836518933,
+        -0.8983299129246359
+      ]
+    },
+    {
+      "task": "branch_0075",
+      "scene": "narrow_corridor_000",
+      "tier": "train",
+      "mode": "perturbation",
+      "excluded_prefix_collision": true
+    },
+    {
+      "task": "branch_0076",
+      "scene": "single_pillar_002",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 69,
+      "goal_yaw": [
+        -1.8849716863132464,
+        0.6684922055328131
+      ]
+    },
+    {
+      "task": "branch_0077",
+      "scene": "single_pillar_002",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 70,
+      "goal_yaw": [
+        -1.9713798659149557,
+        -0.33713684185255693
+      ]
+    },
+    {
+      "task": "branch_0078",
+      "scene": "single_pillar_003",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 71,
+      "goal_yaw": [
+        0.40917363214390684,
+        -1.9576968727603619
+      ]
+    },
+    {
+      "task": "branch_0079",
+      "scene": "single_pillar_003",
+      "tier": "train",
+      "mode": "perturbation",
+      "excluded_prefix_collision": true
+    },
+    {
+      "task": "branch_0080",
+      "scene": "l_shape_003",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 72,
+      "goal_yaw": [
+        -1.9114966885455584,
+        0.5883709387742595
+      ]
+    },
+    {
+      "task": "branch_0081",
+      "scene": "l_shape_003",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 73,
+      "goal_yaw": [
+        1.4977689101160723,
+        -1.3254011708283813
+      ]
+    },
+    {
+      "task": "branch_0082",
+      "scene": "narrow_corridor_003",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 74,
+      "goal_yaw": [
+        -0.6969224618123488,
+        -1.8746463442213432
+      ]
+    },
+    {
+      "task": "branch_0083",
+      "scene": "narrow_corridor_003",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 75,
+      "goal_yaw": [
+        -1.215456511439175,
+        1.5882901425606646
+      ]
+    },
+    {
+      "task": "branch_0084",
+      "scene": "l_shape_002",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 76,
+      "goal_yaw": [
+        1.9907806239181558,
+        -0.1918142250940006
+      ]
+    },
+    {
+      "task": "branch_0085",
+      "scene": "l_shape_002",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 77,
+      "goal_yaw": [
+        1.9627203557020312,
+        0.3843547695501376
+      ]
+    },
+    {
+      "task": "branch_0086",
+      "scene": "single_pillar_001",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 78,
+      "goal_yaw": [
+        1.880205102001532,
+        0.6817836082035522
+      ]
+    },
+    {
+      "task": "branch_0087",
+      "scene": "single_pillar_001",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 79,
+      "goal_yaw": [
+        1.3746500294644606,
+        1.452699984032674
+      ]
+    },
+    {
+      "task": "branch_0088",
+      "scene": "l_shape_002",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 80,
+      "goal_yaw": [
+        -1.9822784186969622,
+        -0.2656541046574107
+      ]
+    },
+    {
+      "task": "branch_0089",
+      "scene": "l_shape_002",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 81,
+      "goal_yaw": [
+        -1.6347669317227143,
+        1.1521879549983867
+      ]
+    },
+    {
+      "task": "branch_0090",
+      "scene": "l_shape_002",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 82,
+      "goal_yaw": [
+        1.115087956986319,
+        1.660294791597989
+      ]
+    },
+    {
+      "task": "branch_0091",
+      "scene": "l_shape_002",
+      "tier": "train",
+      "mode": "perturbation",
+      "excluded_prefix_collision": true
+    },
+    {
+      "task": "branch_0092",
+      "scene": "two_pillars_001",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 83,
+      "goal_yaw": [
+        0.3054495302765402,
+        -1.976537507069256
+      ]
+    },
+    {
+      "task": "branch_0093",
+      "scene": "two_pillars_001",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 84,
+      "goal_yaw": [
+        -1.9207561741699226,
+        -0.5574009066716282
+      ]
+    },
+    {
+      "task": "branch_0094",
+      "scene": "two_pillars_000",
+      "tier": "train",
+      "mode": "tracking",
+      "sample_index": 85,
+      "goal_yaw": [
+        -1.9488936265425065,
+        -0.449236965559215
+      ]
+    },
+    {
+      "task": "branch_0095",
+      "scene": "two_pillars_000",
+      "tier": "train",
+      "mode": "perturbation",
+      "sample_index": 86,
+      "goal_yaw": [
+        0.4572876977154927,
+        1.9470203288092798
+      ]
+    },
+    {
+      "task": "branch_0096",
+      "scene": "two_pillars_003",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 87,
+      "goal_yaw": [
+        -0.7617512330182961,
+        -1.8492525665635968
+      ]
+    },
+    {
+      "task": "branch_0097",
+      "scene": "two_pillars_003",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "excluded_prefix_collision": true
+    },
+    {
+      "task": "branch_0098",
+      "scene": "two_pillars_000",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 88,
+      "goal_yaw": [
+        -0.47446969116705423,
+        1.942904629781866
+      ]
+    },
+    {
+      "task": "branch_0099",
+      "scene": "two_pillars_000",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 89,
+      "goal_yaw": [
+        -1.0667570789573055,
+        -1.6917532758632348
+      ]
+    },
+    {
+      "task": "branch_0100",
+      "scene": "narrow_corridor_003",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 90,
+      "goal_yaw": [
+        -1.8548288884018014,
+        0.7480706390549486
+      ]
+    },
+    {
+      "task": "branch_0101",
+      "scene": "narrow_corridor_003",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 91,
+      "goal_yaw": [
+        1.187992131905081,
+        1.6089358865038408
+      ]
+    },
+    {
+      "task": "branch_0102",
+      "scene": "narrow_corridor_001",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "excluded_prefix_collision": true
+    },
+    {
+      "task": "branch_0103",
+      "scene": "narrow_corridor_001",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "excluded_prefix_collision": true
+    },
+    {
+      "task": "branch_0104",
+      "scene": "narrow_corridor_000",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 92,
+      "goal_yaw": [
+        -1.8989738942415852,
+        0.6276131490555295
+      ]
+    },
+    {
+      "task": "branch_0105",
+      "scene": "narrow_corridor_000",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 93,
+      "goal_yaw": [
+        -1.99580948193986,
+        -0.1294000172104069
+      ]
+    },
+    {
+      "task": "branch_0106",
+      "scene": "two_pillars_001",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 94,
+      "goal_yaw": [
+        1.761972139078982,
+        -0.9462844215390036
+      ]
+    },
+    {
+      "task": "branch_0107",
+      "scene": "two_pillars_001",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 95,
+      "goal_yaw": [
+        -0.5643710505811476,
+        -1.918719689446678
+      ]
+    },
+    {
+      "task": "branch_0108",
+      "scene": "offset_pillars_003",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 96,
+      "goal_yaw": [
+        1.7771973413183788,
+        -0.9173711315919313
+      ]
+    },
+    {
+      "task": "branch_0109",
+      "scene": "offset_pillars_003",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 97,
+      "goal_yaw": [
+        1.5776921696973671,
+        -1.2291816145376926
+      ]
+    },
+    {
+      "task": "branch_0110",
+      "scene": "narrow_corridor_000",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 98,
+      "goal_yaw": [
+        -0.6137064883743826,
+        -1.903513708212234
+      ]
+    },
+    {
+      "task": "branch_0111",
+      "scene": "narrow_corridor_000",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 99,
+      "goal_yaw": [
+        1.373216056522971,
+        -1.4540555939801012
+      ]
+    },
+    {
+      "task": "branch_0112",
+      "scene": "offset_pillars_000",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 100,
+      "goal_yaw": [
+        1.3957905937056552,
+        1.4323996454113348
+      ]
+    },
+    {
+      "task": "branch_0113",
+      "scene": "offset_pillars_000",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 101,
+      "goal_yaw": [
+        1.7890229547006098,
+        -0.8940898789018961
+      ]
+    },
+    {
+      "task": "branch_0114",
+      "scene": "single_pillar_000",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 102,
+      "goal_yaw": [
+        1.8263209757519898,
+        -0.8152003328362527
+      ]
+    },
+    {
+      "task": "branch_0115",
+      "scene": "single_pillar_000",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 103,
+      "goal_yaw": [
+        0.9050163790295602,
+        1.7835204455083966
+      ]
+    },
+    {
+      "task": "branch_0116",
+      "scene": "offset_pillars_002",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 104,
+      "goal_yaw": [
+        1.61976528852159,
+        1.17318381910041
+      ]
+    },
+    {
+      "task": "branch_0117",
+      "scene": "offset_pillars_002",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 105,
+      "goal_yaw": [
+        1.9808464069528766,
+        -0.27612976077832996
+      ]
+    },
+    {
+      "task": "branch_0118",
+      "scene": "single_pillar_001",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 106,
+      "goal_yaw": [
+        1.03459985157518,
+        -1.7116083964469027
+      ]
+    },
+    {
+      "task": "branch_0119",
+      "scene": "single_pillar_001",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 107,
+      "goal_yaw": [
+        1.9999376199177679,
+        0.015793695160695682
+      ]
+    },
+    {
+      "task": "branch_0120",
+      "scene": "l_shape_001",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 108,
+      "goal_yaw": [
+        -1.3033749213890569,
+        -1.5169751662549982
+      ]
+    },
+    {
+      "task": "branch_0121",
+      "scene": "l_shape_001",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "excluded_prefix_collision": true
+    },
+    {
+      "task": "branch_0122",
+      "scene": "offset_pillars_002",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 109,
+      "goal_yaw": [
+        1.029137551741737,
+        1.7148981682813982
+      ]
+    },
+    {
+      "task": "branch_0123",
+      "scene": "offset_pillars_002",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 110,
+      "goal_yaw": [
+        -1.1773925909954561,
+        -1.6167085912645112
+      ]
+    },
+    {
+      "task": "branch_0124",
+      "scene": "l_shape_001",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 111,
+      "goal_yaw": [
+        1.7852374437044827,
+        -0.9016246876433229
+      ]
+    },
+    {
+      "task": "branch_0125",
+      "scene": "l_shape_001",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "excluded_prefix_collision": true
+    },
+    {
+      "task": "branch_0126",
+      "scene": "l_shape_000",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 112,
+      "goal_yaw": [
+        -0.4952086476472727,
+        -1.9377224634279857
+      ]
+    },
+    {
+      "task": "branch_0127",
+      "scene": "l_shape_000",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 113,
+      "goal_yaw": [
+        -0.14404742031897264,
+        -1.9948058582354657
+      ]
+    },
+    {
+      "task": "branch_0128",
+      "scene": "single_pillar_002",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 114,
+      "goal_yaw": [
+        1.9697175343791495,
+        0.3467172234766286
+      ]
+    },
+    {
+      "task": "branch_0129",
+      "scene": "single_pillar_002",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 115,
+      "goal_yaw": [
+        0.6674869780204481,
+        1.8853279121658564
+      ]
+    },
+    {
+      "task": "branch_0130",
+      "scene": "two_pillars_003",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 116,
+      "goal_yaw": [
+        1.9328222846848555,
+        0.5140019185701912
+      ]
+    },
+    {
+      "task": "branch_0131",
+      "scene": "two_pillars_003",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 117,
+      "goal_yaw": [
+        0.5436068890423423,
+        -1.9247055828422743
+      ]
+    },
+    {
+      "task": "branch_0132",
+      "scene": "single_pillar_001",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 118,
+      "goal_yaw": [
+        -1.8852560877438638,
+        -0.667689489258891
+      ]
+    },
+    {
+      "task": "branch_0133",
+      "scene": "single_pillar_001",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 119,
+      "goal_yaw": [
+        1.9825462179656443,
+        0.26364882651060284
+      ]
+    },
+    {
+      "task": "branch_0134",
+      "scene": "offset_pillars_000",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 120,
+      "goal_yaw": [
+        1.184600225721832,
+        1.6114348545548676
+      ]
+    },
+    {
+      "task": "branch_0135",
+      "scene": "offset_pillars_000",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 121,
+      "goal_yaw": [
+        -1.1367699118314072,
+        -1.6455254540239488
+      ]
+    },
+    {
+      "task": "branch_0136",
+      "scene": "offset_pillars_002",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 122,
+      "goal_yaw": [
+        -1.9847004393937382,
+        0.2469088547776929
+      ]
+    },
+    {
+      "task": "branch_0137",
+      "scene": "offset_pillars_002",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 123,
+      "goal_yaw": [
+        -0.16081188477059766,
+        -1.9935244285099425
+      ]
+    },
+    {
+      "task": "branch_0138",
+      "scene": "l_shape_003",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 124,
+      "goal_yaw": [
+        0.20440141477247314,
+        1.9895275564858403
+      ]
+    },
+    {
+      "task": "branch_0139",
+      "scene": "l_shape_003",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 125,
+      "goal_yaw": [
+        1.8266661192020734,
+        -0.8144266229828675
+      ]
+    },
+    {
+      "task": "branch_0140",
+      "scene": "two_pillars_002",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 126,
+      "goal_yaw": [
+        -1.6454943020370612,
+        -1.136815041730542
+      ]
+    },
+    {
+      "task": "branch_0141",
+      "scene": "two_pillars_002",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 127,
+      "goal_yaw": [
+        -1.8342499270993315,
+        0.7971997420825502
+      ]
+    },
+    {
+      "task": "branch_0142",
+      "scene": "offset_pillars_001",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 128,
+      "goal_yaw": [
+        -1.998035306826471,
+        -0.08862784950953968
+      ]
+    },
+    {
+      "task": "branch_0143",
+      "scene": "offset_pillars_001",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 129,
+      "goal_yaw": [
+        1.789765071733715,
+        -0.8926034885543735
+      ]
+    },
+    {
+      "task": "branch_0144",
+      "scene": "single_pillar_000",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 130,
+      "goal_yaw": [
+        -0.5763036688902358,
+        1.915169473951278
+      ]
+    },
+    {
+      "task": "branch_0145",
+      "scene": "single_pillar_000",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "excluded_prefix_collision": true
+    },
+    {
+      "task": "branch_0146",
+      "scene": "narrow_corridor_002",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 131,
+      "goal_yaw": [
+        -1.8503649192210974,
+        0.7590452563599674
+      ]
+    },
+    {
+      "task": "branch_0147",
+      "scene": "narrow_corridor_002",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 132,
+      "goal_yaw": [
+        -1.429695507424995,
+        1.3985602570396698
+      ]
+    },
+    {
+      "task": "branch_0148",
+      "scene": "l_shape_002",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 133,
+      "goal_yaw": [
+        -1.2090407268305037,
+        -1.593179423187275
+      ]
+    },
+    {
+      "task": "branch_0149",
+      "scene": "l_shape_002",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 134,
+      "goal_yaw": [
+        -1.7073815904907426,
+        1.0415605150955867
+      ]
+    },
+    {
+      "task": "branch_0150",
+      "scene": "single_pillar_002",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 135,
+      "goal_yaw": [
+        1.3953270819567827,
+        -1.4328511212861248
+      ]
+    },
+    {
+      "task": "branch_0151",
+      "scene": "single_pillar_002",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 136,
+      "goal_yaw": [
+        1.9884538815512955,
+        0.21459551350285902
+      ]
+    },
+    {
+      "task": "branch_0152",
+      "scene": "two_pillars_002",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 137,
+      "goal_yaw": [
+        -1.978871460205858,
+        0.2899447398089911
+      ]
+    },
+    {
+      "task": "branch_0153",
+      "scene": "two_pillars_002",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "excluded_prefix_collision": true
+    },
+    {
+      "task": "branch_0154",
+      "scene": "single_pillar_000",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 138,
+      "goal_yaw": [
+        1.9981663169874593,
+        0.08562270835582231
+      ]
+    },
+    {
+      "task": "branch_0155",
+      "scene": "single_pillar_000",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 139,
+      "goal_yaw": [
+        0.9870379270525624,
+        -1.7394701031222788
+      ]
+    },
+    {
+      "task": "branch_0156",
+      "scene": "two_pillars_002",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 140,
+      "goal_yaw": [
+        -0.486769904375721,
+        -1.9398596012701526
+      ]
+    },
+    {
+      "task": "branch_0157",
+      "scene": "two_pillars_002",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 141,
+      "goal_yaw": [
+        -0.6485772740056818,
+        1.8919164105942325
+      ]
+    },
+    {
+      "task": "branch_0158",
+      "scene": "two_pillars_001",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "excluded_prefix_collision": true
+    },
+    {
+      "task": "branch_0159",
+      "scene": "two_pillars_001",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 142,
+      "goal_yaw": [
+        1.5750803610295057,
+        -1.2325266864825168
+      ]
+    },
+    {
+      "task": "branch_0160",
+      "scene": "two_pillars_000",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 143,
+      "goal_yaw": [
+        -0.8074762478213375,
+        1.8297492109312241
+      ]
+    },
+    {
+      "task": "branch_0161",
+      "scene": "two_pillars_000",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 144,
+      "goal_yaw": [
+        -0.40864270621522336,
+        -1.95780771929416
+      ]
+    },
+    {
+      "task": "branch_0162",
+      "scene": "narrow_corridor_001",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 145,
+      "goal_yaw": [
+        1.9960225544623735,
+        -0.12607192470979725
+      ]
+    },
+    {
+      "task": "branch_0163",
+      "scene": "narrow_corridor_001",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 146,
+      "goal_yaw": [
+        1.7471762513809648,
+        -0.9733319949639195
+      ]
+    },
+    {
+      "task": "branch_0164",
+      "scene": "single_pillar_001",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 147,
+      "goal_yaw": [
+        -1.2439265147893057,
+        1.5660928570965225
+      ]
+    },
+    {
+      "task": "branch_0165",
+      "scene": "single_pillar_001",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 148,
+      "goal_yaw": [
+        -1.086837643043352,
+        1.6789234126649493
+      ]
+    },
+    {
+      "task": "branch_0166",
+      "scene": "offset_pillars_003",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 149,
+      "goal_yaw": [
+        1.6076125378490271,
+        -1.189782261487752
+      ]
+    },
+    {
+      "task": "branch_0167",
+      "scene": "offset_pillars_003",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 150,
+      "goal_yaw": [
+        1.200534349915316,
+        -1.5995991042770337
+      ]
+    },
+    {
+      "task": "branch_0168",
+      "scene": "narrow_corridor_002",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 151,
+      "goal_yaw": [
+        -1.5487046531331166,
+        1.2655092516758144
+      ]
+    },
+    {
+      "task": "branch_0169",
+      "scene": "narrow_corridor_002",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 152,
+      "goal_yaw": [
+        -1.25564847585752,
+        1.556710271758555
+      ]
+    },
+    {
+      "task": "branch_0170",
+      "scene": "l_shape_000",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 153,
+      "goal_yaw": [
+        -0.2914637109656495,
+        1.9786482559355163
+      ]
+    },
+    {
+      "task": "branch_0171",
+      "scene": "l_shape_000",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 154,
+      "goal_yaw": [
+        1.9885199771783655,
+        0.2139816455716587
+      ]
+    },
+    {
+      "task": "branch_0172",
+      "scene": "l_shape_001",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 155,
+      "goal_yaw": [
+        -1.726777680928807,
+        1.009078212505109
+      ]
+    },
+    {
+      "task": "branch_0173",
+      "scene": "l_shape_001",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "excluded_prefix_collision": true
+    },
+    {
+      "task": "branch_0174",
+      "scene": "single_pillar_003",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 156,
+      "goal_yaw": [
+        1.9887236741287342,
+        -0.21208022020986775
+      ]
+    },
+    {
+      "task": "branch_0175",
+      "scene": "single_pillar_003",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 157,
+      "goal_yaw": [
+        -1.998942730893596,
+        0.06502130963937962
+      ]
+    },
+    {
+      "task": "branch_0176",
+      "scene": "narrow_corridor_002",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 158,
+      "goal_yaw": [
+        -0.22381655558266272,
+        -1.9874370982730678
+      ]
+    },
+    {
+      "task": "branch_0177",
+      "scene": "narrow_corridor_002",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "excluded_prefix_collision": true
+    },
+    {
+      "task": "branch_0178",
+      "scene": "two_pillars_001",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 159,
+      "goal_yaw": [
+        1.541077541519433,
+        -1.274786337179
+      ]
+    },
+    {
+      "task": "branch_0179",
+      "scene": "two_pillars_001",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 160,
+      "goal_yaw": [
+        0.0008961501095507084,
+        1.9999997751641052
+      ]
+    },
+    {
+      "task": "branch_0180",
+      "scene": "single_pillar_003",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 161,
+      "goal_yaw": [
+        1.3766752166268306,
+        1.4507808876771162
+      ]
+    },
+    {
+      "task": "branch_0181",
+      "scene": "single_pillar_003",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 162,
+      "goal_yaw": [
+        1.2475585299741874,
+        1.563201171429034
+      ]
+    },
+    {
+      "task": "branch_0182",
+      "scene": "l_shape_000",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 163,
+      "goal_yaw": [
+        1.5033514996472392,
+        1.3190657695324004
+      ]
+    },
+    {
+      "task": "branch_0183",
+      "scene": "l_shape_000",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 164,
+      "goal_yaw": [
+        0.4359910362632389,
+        -1.9518994975537651
+      ]
+    },
+    {
+      "task": "branch_0184",
+      "scene": "single_pillar_001",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 165,
+      "goal_yaw": [
+        0.883534625979389,
+        -1.7942593022112716
+      ]
+    },
+    {
+      "task": "branch_0185",
+      "scene": "single_pillar_001",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 166,
+      "goal_yaw": [
+        1.9581183141523988,
+        0.40715209770471467
+      ]
+    },
+    {
+      "task": "branch_0186",
+      "scene": "two_pillars_000",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 167,
+      "goal_yaw": [
+        -0.5784818018587755,
+        1.9145126630712728
+      ]
+    },
+    {
+      "task": "branch_0187",
+      "scene": "two_pillars_000",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 168,
+      "goal_yaw": [
+        -1.9642377279500298,
+        0.3765237486881842
+      ]
+    },
+    {
+      "task": "branch_0188",
+      "scene": "two_pillars_000",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 169,
+      "goal_yaw": [
+        -1.5247782875061062,
+        -1.2942376000747582
+      ]
+    },
+    {
+      "task": "branch_0189",
+      "scene": "two_pillars_000",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 170,
+      "goal_yaw": [
+        -1.25461297831386,
+        -1.5575448987482496
+      ]
+    },
+    {
+      "task": "branch_0190",
+      "scene": "narrow_corridor_003",
+      "tier": "ood_extrap",
+      "mode": "tracking",
+      "sample_index": 171,
+      "goal_yaw": [
+        1.0729522792896071,
+        1.6878310124648208
+      ]
+    },
+    {
+      "task": "branch_0191",
+      "scene": "narrow_corridor_003",
+      "tier": "ood_extrap",
+      "mode": "perturbation",
+      "sample_index": 172,
+      "goal_yaw": [
+        1.9438781120622688,
+        0.470465639525504
+      ]
+    },
+    {
+      "task": "branch_0192",
+      "scene": "offset_pillars_005",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 173,
+      "goal_yaw": [
+        -1.7108773152216665,
+        -1.0358083992546656
+      ]
+    },
+    {
+      "task": "branch_0193",
+      "scene": "offset_pillars_005",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 174,
+      "goal_yaw": [
+        1.2470019747683339,
+        -1.563645052319586
+      ]
+    },
+    {
+      "task": "branch_0194",
+      "scene": "narrow_corridor_005",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 175,
+      "goal_yaw": [
+        0.9842556494526258,
+        -1.741045940336437
+      ]
+    },
+    {
+      "task": "branch_0195",
+      "scene": "narrow_corridor_005",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 176,
+      "goal_yaw": [
+        0.13419736434907428,
+        -1.9954926798925496
+      ]
+    },
+    {
+      "task": "branch_0196",
+      "scene": "single_pillar_004",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 177,
+      "goal_yaw": [
+        0.8515973140314421,
+        1.8096358796430196
+      ]
+    },
+    {
+      "task": "branch_0197",
+      "scene": "single_pillar_004",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 178,
+      "goal_yaw": [
+        1.7533219242191602,
+        0.9622174028651161
+      ]
+    },
+    {
+      "task": "branch_0198",
+      "scene": "narrow_corridor_004",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 179,
+      "goal_yaw": [
+        -1.5418664540688685,
+        -1.2738319450801097
+      ]
+    },
+    {
+      "task": "branch_0199",
+      "scene": "narrow_corridor_004",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 180,
+      "goal_yaw": [
+        -0.6469331499508691,
+        -1.892479140636293
+      ]
+    },
+    {
+      "task": "branch_0200",
+      "scene": "two_pillars_004",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 181,
+      "goal_yaw": [
+        1.425322867554874,
+        1.4030162985475128
+      ]
+    },
+    {
+      "task": "branch_0201",
+      "scene": "two_pillars_004",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 182,
+      "goal_yaw": [
+        1.961832580051205,
+        -0.38886111608707447
+      ]
+    },
+    {
+      "task": "branch_0202",
+      "scene": "single_pillar_005",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 183,
+      "goal_yaw": [
+        1.8592763026155052,
+        0.7369473545750543
+      ]
+    },
+    {
+      "task": "branch_0203",
+      "scene": "single_pillar_005",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 184,
+      "goal_yaw": [
+        0.06826934877703336,
+        -1.998834510737778
+      ]
+    },
+    {
+      "task": "branch_0204",
+      "scene": "l_shape_005",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 185,
+      "goal_yaw": [
+        0.2677282262870057,
+        1.981999418943692
+      ]
+    },
+    {
+      "task": "branch_0205",
+      "scene": "l_shape_005",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 186,
+      "goal_yaw": [
+        1.3551957744103855,
+        1.4708652663741142
+      ]
+    },
+    {
+      "task": "branch_0206",
+      "scene": "l_shape_004",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 187,
+      "goal_yaw": [
+        0.9665306569825619,
+        1.7509478895552075
+      ]
+    },
+    {
+      "task": "branch_0207",
+      "scene": "l_shape_004",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 188,
+      "goal_yaw": [
+        1.8658040383029537,
+        -0.720260611819297
+      ]
+    },
+    {
+      "task": "branch_0208",
+      "scene": "narrow_corridor_004",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "excluded_prefix_collision": true
+    },
+    {
+      "task": "branch_0209",
+      "scene": "narrow_corridor_004",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 189,
+      "goal_yaw": [
+        -0.14472322648141295,
+        -1.9947569637910336
+      ]
+    },
+    {
+      "task": "branch_0210",
+      "scene": "two_pillars_005",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 190,
+      "goal_yaw": [
+        0.7307851781584457,
+        1.8617069846650718
+      ]
+    },
+    {
+      "task": "branch_0211",
+      "scene": "two_pillars_005",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 191,
+      "goal_yaw": [
+        1.1924703227488103,
+        -1.605619614746018
+      ]
+    },
+    {
+      "task": "branch_0212",
+      "scene": "two_pillars_005",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 192,
+      "goal_yaw": [
+        -0.8367914869121355,
+        -1.8165296107527018
+      ]
+    },
+    {
+      "task": "branch_0213",
+      "scene": "two_pillars_005",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 193,
+      "goal_yaw": [
+        0.5265860489401744,
+        -1.9294318399684682
+      ]
+    },
+    {
+      "task": "branch_0214",
+      "scene": "offset_pillars_004",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "excluded_prefix_collision": true
+    },
+    {
+      "task": "branch_0215",
+      "scene": "offset_pillars_004",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "excluded_prefix_collision": true
+    },
+    {
+      "task": "branch_0216",
+      "scene": "narrow_corridor_004",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 194,
+      "goal_yaw": [
+        -1.952928935564881,
+        -0.43135666754243335
+      ]
+    },
+    {
+      "task": "branch_0217",
+      "scene": "narrow_corridor_004",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 195,
+      "goal_yaw": [
+        1.462511584063306,
+        -1.3642067445430073
+      ]
+    },
+    {
+      "task": "branch_0218",
+      "scene": "single_pillar_004",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 196,
+      "goal_yaw": [
+        -1.9740877518005353,
+        -0.3209013417390333
+      ]
+    },
+    {
+      "task": "branch_0219",
+      "scene": "single_pillar_004",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 197,
+      "goal_yaw": [
+        -0.5040522319448245,
+        -1.9354408282004851
+      ]
+    },
+    {
+      "task": "branch_0220",
+      "scene": "l_shape_004",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 198,
+      "goal_yaw": [
+        -0.3253159862044377,
+        -1.9733650383290064
+      ]
+    },
+    {
+      "task": "branch_0221",
+      "scene": "l_shape_004",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 199,
+      "goal_yaw": [
+        -1.6977123832795562,
+        1.057247775794139
+      ]
+    },
+    {
+      "task": "branch_0222",
+      "scene": "l_shape_005",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 200,
+      "goal_yaw": [
+        1.997063159001748,
+        0.10834607858957454
+      ]
+    },
+    {
+      "task": "branch_0223",
+      "scene": "l_shape_005",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 201,
+      "goal_yaw": [
+        -1.6973926478430437,
+        1.057760962748488
+      ]
+    },
+    {
+      "task": "branch_0224",
+      "scene": "two_pillars_005",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 202,
+      "goal_yaw": [
+        -1.3741679600413732,
+        -1.4531560020382372
+      ]
+    },
+    {
+      "task": "branch_0225",
+      "scene": "two_pillars_005",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 203,
+      "goal_yaw": [
+        0.5619338616619924,
+        1.9194349061118778
+      ]
+    },
+    {
+      "task": "branch_0226",
+      "scene": "l_shape_004",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 204,
+      "goal_yaw": [
+        -0.6044100642019028,
+        1.906485924245446
+      ]
+    },
+    {
+      "task": "branch_0227",
+      "scene": "l_shape_004",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 205,
+      "goal_yaw": [
+        -1.2194405062768219,
+        1.5852333858706875
+      ]
+    },
+    {
+      "task": "branch_0228",
+      "scene": "l_shape_005",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 206,
+      "goal_yaw": [
+        1.5469905871683414,
+        -1.2676041277838463
+      ]
+    },
+    {
+      "task": "branch_0229",
+      "scene": "l_shape_005",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 207,
+      "goal_yaw": [
+        1.9170458337212903,
+        0.5700311232636172
+      ]
+    },
+    {
+      "task": "branch_0230",
+      "scene": "narrow_corridor_004",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 208,
+      "goal_yaw": [
+        0.9154081597709577,
+        1.7782091912806284
+      ]
+    },
+    {
+      "task": "branch_0231",
+      "scene": "narrow_corridor_004",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 209,
+      "goal_yaw": [
+        1.178222355700705,
+        -1.6161039517862148
+      ]
+    },
+    {
+      "task": "branch_0232",
+      "scene": "offset_pillars_005",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 210,
+      "goal_yaw": [
+        -1.6839316871065744,
+        1.0790617432557226
+      ]
+    },
+    {
+      "task": "branch_0233",
+      "scene": "offset_pillars_005",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 211,
+      "goal_yaw": [
+        -0.7564821030680842,
+        1.8514142783972594
+      ]
+    },
+    {
+      "task": "branch_0234",
+      "scene": "single_pillar_005",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 212,
+      "goal_yaw": [
+        0.11993833746914533,
+        1.9964004870611032
+      ]
+    },
+    {
+      "task": "branch_0235",
+      "scene": "single_pillar_005",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 213,
+      "goal_yaw": [
+        -0.17261147115556702,
+        1.9925373569986486
+      ]
+    },
+    {
+      "task": "branch_0236",
+      "scene": "single_pillar_004",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 214,
+      "goal_yaw": [
+        1.7292560082432855,
+        1.0048252682313714
+      ]
+    },
+    {
+      "task": "branch_0237",
+      "scene": "single_pillar_004",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 215,
+      "goal_yaw": [
+        -1.5259702200519782,
+        1.2928321643296163
+      ]
+    },
+    {
+      "task": "branch_0238",
+      "scene": "two_pillars_004",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 216,
+      "goal_yaw": [
+        -1.144121081401307,
+        1.6404227693880897
+      ]
+    },
+    {
+      "task": "branch_0239",
+      "scene": "two_pillars_004",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 217,
+      "goal_yaw": [
+        -1.998489089537083,
+        -0.07772500069337301
+      ]
+    },
+    {
+      "task": "branch_0240",
+      "scene": "two_pillars_004",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "excluded_prefix_collision": true
+    },
+    {
+      "task": "branch_0241",
+      "scene": "two_pillars_004",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 218,
+      "goal_yaw": [
+        1.1026580612281103,
+        1.6685757452874783
+      ]
+    },
+    {
+      "task": "branch_0242",
+      "scene": "offset_pillars_005",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 219,
+      "goal_yaw": [
+        1.5921655334875486,
+        1.2103755523095954
+      ]
+    },
+    {
+      "task": "branch_0243",
+      "scene": "offset_pillars_005",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 220,
+      "goal_yaw": [
+        -1.3504555504140434,
+        1.4752185982608623
+      ]
+    },
+    {
+      "task": "branch_0244",
+      "scene": "narrow_corridor_005",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 221,
+      "goal_yaw": [
+        -1.9459136810385922,
+        -0.4619738047002198
+      ]
+    },
+    {
+      "task": "branch_0245",
+      "scene": "narrow_corridor_005",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "excluded_prefix_collision": true
+    },
+    {
+      "task": "branch_0246",
+      "scene": "two_pillars_004",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 222,
+      "goal_yaw": [
+        1.5925628023148186,
+        -1.2098527080387003
+      ]
+    },
+    {
+      "task": "branch_0247",
+      "scene": "two_pillars_004",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 223,
+      "goal_yaw": [
+        -0.4199564248597548,
+        1.95541208463557
+      ]
+    },
+    {
+      "task": "branch_0248",
+      "scene": "single_pillar_005",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 224,
+      "goal_yaw": [
+        1.6734676681215286,
+        -1.0952196242346264
+      ]
+    },
+    {
+      "task": "branch_0249",
+      "scene": "single_pillar_005",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 225,
+      "goal_yaw": [
+        -0.8571010242904982,
+        -1.8070356084151886
+      ]
+    },
+    {
+      "task": "branch_0250",
+      "scene": "narrow_corridor_004",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 226,
+      "goal_yaw": [
+        -1.1069580609708523,
+        -1.6657262324181792
+      ]
+    },
+    {
+      "task": "branch_0251",
+      "scene": "narrow_corridor_004",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 227,
+      "goal_yaw": [
+        -1.9999858668214825,
+        -0.007531219465367868
+      ]
+    },
+    {
+      "task": "branch_0252",
+      "scene": "narrow_corridor_005",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 228,
+      "goal_yaw": [
+        0.10130808467799578,
+        1.997432528202961
+      ]
+    },
+    {
+      "task": "branch_0253",
+      "scene": "narrow_corridor_005",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 229,
+      "goal_yaw": [
+        0.9565657860728866,
+        1.7564116558092284
+      ]
+    },
+    {
+      "task": "branch_0254",
+      "scene": "single_pillar_004",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 230,
+      "goal_yaw": [
+        -1.9891912209861133,
+        -0.2076492781582686
+      ]
+    },
+    {
+      "task": "branch_0255",
+      "scene": "single_pillar_004",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 231,
+      "goal_yaw": [
+        -1.9294034941043494,
+        0.5266895927222026
+      ]
+    },
+    {
+      "task": "branch_0256",
+      "scene": "single_pillar_005",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 232,
+      "goal_yaw": [
+        1.9834245530828476,
+        -0.25695694212832854
+      ]
+    },
+    {
+      "task": "branch_0257",
+      "scene": "single_pillar_005",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "excluded_prefix_collision": true
+    },
+    {
+      "task": "branch_0258",
+      "scene": "narrow_corridor_004",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 233,
+      "goal_yaw": [
+        1.976400457581021,
+        0.3063350980903172
+      ]
+    },
+    {
+      "task": "branch_0259",
+      "scene": "narrow_corridor_004",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 234,
+      "goal_yaw": [
+        -0.2228239212691672,
+        1.9875486158736924
+      ]
+    },
+    {
+      "task": "branch_0260",
+      "scene": "l_shape_004",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 235,
+      "goal_yaw": [
+        -1.8229763491251785,
+        0.8226525417707745
+      ]
+    },
+    {
+      "task": "branch_0261",
+      "scene": "l_shape_004",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 236,
+      "goal_yaw": [
+        -1.9772138057250577,
+        0.3010411894908065
+      ]
+    },
+    {
+      "task": "branch_0262",
+      "scene": "offset_pillars_004",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 237,
+      "goal_yaw": [
+        0.9026934318884152,
+        1.7846972887725652
+      ]
+    },
+    {
+      "task": "branch_0263",
+      "scene": "offset_pillars_004",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 238,
+      "goal_yaw": [
+        1.9100134602201553,
+        0.5931683621665094
+      ]
+    },
+    {
+      "task": "branch_0264",
+      "scene": "single_pillar_004",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 239,
+      "goal_yaw": [
+        -1.8487715746987727,
+        0.7629178323826749
+      ]
+    },
+    {
+      "task": "branch_0265",
+      "scene": "single_pillar_004",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 240,
+      "goal_yaw": [
+        1.7168527887405909,
+        1.0258734729604835
+      ]
+    },
+    {
+      "task": "branch_0266",
+      "scene": "offset_pillars_004",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 241,
+      "goal_yaw": [
+        1.9249610666109858,
+        0.5427014314223404
+      ]
+    },
+    {
+      "task": "branch_0267",
+      "scene": "offset_pillars_004",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 242,
+      "goal_yaw": [
+        1.7342028840499952,
+        -0.9962633054705982
+      ]
+    },
+    {
+      "task": "branch_0268",
+      "scene": "l_shape_004",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 243,
+      "goal_yaw": [
+        -1.7223620934608632,
+        1.0165966620315312
+      ]
+    },
+    {
+      "task": "branch_0269",
+      "scene": "l_shape_004",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 244,
+      "goal_yaw": [
+        1.6321334004219321,
+        -1.1559154214332348
+      ]
+    },
+    {
+      "task": "branch_0270",
+      "scene": "narrow_corridor_004",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "excluded_prefix_collision": true
+    },
+    {
+      "task": "branch_0271",
+      "scene": "narrow_corridor_004",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 245,
+      "goal_yaw": [
+        -1.1514384452642743,
+        1.6352948994725574
+      ]
+    },
+    {
+      "task": "branch_0272",
+      "scene": "narrow_corridor_005",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 246,
+      "goal_yaw": [
+        -0.6906082099449459,
+        -1.876981716732088
+      ]
+    },
+    {
+      "task": "branch_0273",
+      "scene": "narrow_corridor_005",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 247,
+      "goal_yaw": [
+        -0.47634819562005776,
+        -1.9424449387795195
+      ]
+    },
+    {
+      "task": "branch_0274",
+      "scene": "narrow_corridor_005",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 248,
+      "goal_yaw": [
+        0.38817216594973425,
+        -1.9619689577340957
+      ]
+    },
+    {
+      "task": "branch_0275",
+      "scene": "narrow_corridor_005",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 249,
+      "goal_yaw": [
+        -0.608790516816943,
+        -1.9050916252649361
+      ]
+    },
+    {
+      "task": "branch_0276",
+      "scene": "single_pillar_005",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 250,
+      "goal_yaw": [
+        0.06573259486495231,
+        -1.9989194642422887
+      ]
+    },
+    {
+      "task": "branch_0277",
+      "scene": "single_pillar_005",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 251,
+      "goal_yaw": [
+        -1.9771743570035876,
+        -0.3012996270346861
+      ]
+    },
+    {
+      "task": "branch_0278",
+      "scene": "narrow_corridor_004",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 252,
+      "goal_yaw": [
+        -1.1640707845938134,
+        -1.6263268567753841
+      ]
+    },
+    {
+      "task": "branch_0279",
+      "scene": "narrow_corridor_004",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 253,
+      "goal_yaw": [
+        0.5008451877629229,
+        -1.9362731980225028
+      ]
+    },
+    {
+      "task": "branch_0280",
+      "scene": "single_pillar_005",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 254,
+      "goal_yaw": [
+        1.9469715801507375,
+        -0.4574947704532136
+      ]
+    },
+    {
+      "task": "branch_0281",
+      "scene": "single_pillar_005",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 255,
+      "goal_yaw": [
+        0.7333437189511399,
+        -1.860700709736713
+      ]
+    },
+    {
+      "task": "branch_0282",
+      "scene": "l_shape_004",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 256,
+      "goal_yaw": [
+        -0.4119514663020928,
+        1.9571142040583465
+      ]
+    },
+    {
+      "task": "branch_0283",
+      "scene": "l_shape_004",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 257,
+      "goal_yaw": [
+        1.3585402546344707,
+        -1.4677766118822313
+      ]
+    },
+    {
+      "task": "branch_0284",
+      "scene": "narrow_corridor_005",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 258,
+      "goal_yaw": [
+        -1.2257724898014202,
+        1.5803423747409246
+      ]
+    },
+    {
+      "task": "branch_0285",
+      "scene": "narrow_corridor_005",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "excluded_prefix_collision": true
+    },
+    {
+      "task": "branch_0286",
+      "scene": "single_pillar_004",
+      "tier": "train_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 259,
+      "goal_yaw": [
+        0.40176157001217383,
+        -1.9592313445598823
+      ]
+    },
+    {
+      "task": "branch_0287",
+      "scene": "single_pillar_004",
+      "tier": "train_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 260,
+      "goal_yaw": [
+        -1.9213774582860312,
+        -0.555255446675149
+      ]
+    },
+    {
+      "task": "branch_0288",
+      "scene": "offset_pillars_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 261,
+      "goal_yaw": [
+        0.7723034961646151,
+        1.844870506636436
+      ]
+    },
+    {
+      "task": "branch_0289",
+      "scene": "offset_pillars_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 262,
+      "goal_yaw": [
+        1.144379039805949,
+        -1.640242799427224
+      ]
+    },
+    {
+      "task": "branch_0290",
+      "scene": "offset_pillars_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 263,
+      "goal_yaw": [
+        -0.8020006679025448,
+        1.8321557588212707
+      ]
+    },
+    {
+      "task": "branch_0291",
+      "scene": "offset_pillars_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 264,
+      "goal_yaw": [
+        0.9383226800083974,
+        -1.7662249429813044
+      ]
+    },
+    {
+      "task": "branch_0292",
+      "scene": "l_shape_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "excluded_prefix_collision": true
+    },
+    {
+      "task": "branch_0293",
+      "scene": "l_shape_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 265,
+      "goal_yaw": [
+        -1.4666158540912415,
+        1.359793374134317
+      ]
+    },
+    {
+      "task": "branch_0294",
+      "scene": "single_pillar_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 266,
+      "goal_yaw": [
+        1.3631385319416374,
+        1.4635071959615327
+      ]
+    },
+    {
+      "task": "branch_0295",
+      "scene": "single_pillar_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 267,
+      "goal_yaw": [
+        0.39714820122293,
+        1.9601716939288778
+      ]
+    },
+    {
+      "task": "branch_0296",
+      "scene": "two_pillars_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 268,
+      "goal_yaw": [
+        -1.8944558810633605,
+        -0.6411217561800807
+      ]
+    },
+    {
+      "task": "branch_0297",
+      "scene": "two_pillars_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 269,
+      "goal_yaw": [
+        -0.009270121360501567,
+        -1.9999785245071973
+      ]
+    },
+    {
+      "task": "branch_0298",
+      "scene": "offset_pillars_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 270,
+      "goal_yaw": [
+        -0.5993630200534755,
+        1.9080786509319931
+      ]
+    },
+    {
+      "task": "branch_0299",
+      "scene": "offset_pillars_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 271,
+      "goal_yaw": [
+        -1.2204526647371894,
+        1.5844542836117579
+      ]
+    },
+    {
+      "task": "branch_0300",
+      "scene": "narrow_corridor_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 272,
+      "goal_yaw": [
+        0.7172006195600927,
+        1.866982392277841
+      ]
+    },
+    {
+      "task": "branch_0301",
+      "scene": "narrow_corridor_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 273,
+      "goal_yaw": [
+        -1.8900092381769578,
+        0.6541138163852843
+      ]
+    },
+    {
+      "task": "branch_0302",
+      "scene": "l_shape_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 274,
+      "goal_yaw": [
+        -1.8947011835901544,
+        -0.6403962894828096
+      ]
+    },
+    {
+      "task": "branch_0303",
+      "scene": "l_shape_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 275,
+      "goal_yaw": [
+        0.866266358956705,
+        1.80265984367756
+      ]
+    },
+    {
+      "task": "branch_0304",
+      "scene": "two_pillars_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 276,
+      "goal_yaw": [
+        0.3996192722058002,
+        -1.959669415757157
+      ]
+    },
+    {
+      "task": "branch_0305",
+      "scene": "two_pillars_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "excluded_prefix_collision": true
+    },
+    {
+      "task": "branch_0306",
+      "scene": "offset_pillars_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 277,
+      "goal_yaw": [
+        1.7953138151474386,
+        0.8813900031182763
+      ]
+    },
+    {
+      "task": "branch_0307",
+      "scene": "offset_pillars_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "excluded_prefix_collision": true
+    },
+    {
+      "task": "branch_0308",
+      "scene": "offset_pillars_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 278,
+      "goal_yaw": [
+        -1.2987774126570073,
+        -1.520913364318877
+      ]
+    },
+    {
+      "task": "branch_0309",
+      "scene": "offset_pillars_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 279,
+      "goal_yaw": [
+        0.37031504740048,
+        1.965417659512614
+      ]
+    },
+    {
+      "task": "branch_0310",
+      "scene": "single_pillar_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 280,
+      "goal_yaw": [
+        1.956377194634792,
+        0.4154375196136217
+      ]
+    },
+    {
+      "task": "branch_0311",
+      "scene": "single_pillar_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 281,
+      "goal_yaw": [
+        -1.9986934240017735,
+        0.0722818841428173
+      ]
+    },
+    {
+      "task": "branch_0312",
+      "scene": "two_pillars_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 282,
+      "goal_yaw": [
+        -1.594399652570812,
+        1.207431101061325
+      ]
+    },
+    {
+      "task": "branch_0313",
+      "scene": "two_pillars_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 283,
+      "goal_yaw": [
+        1.4338360147534912,
+        -1.3943150370796378
+      ]
+    },
+    {
+      "task": "branch_0314",
+      "scene": "two_pillars_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 284,
+      "goal_yaw": [
+        -1.0701477889691244,
+        1.689610537660464
+      ]
+    },
+    {
+      "task": "branch_0315",
+      "scene": "two_pillars_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 285,
+      "goal_yaw": [
+        0.9488510549707068,
+        -1.7605912475462147
+      ]
+    },
+    {
+      "task": "branch_0316",
+      "scene": "narrow_corridor_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 286,
+      "goal_yaw": [
+        -1.5167826578172374,
+        1.3035989499738734
+      ]
+    },
+    {
+      "task": "branch_0317",
+      "scene": "narrow_corridor_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 287,
+      "goal_yaw": [
+        1.5386829031209344,
+        1.2776755709775223
+      ]
+    },
+    {
+      "task": "branch_0318",
+      "scene": "narrow_corridor_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 288,
+      "goal_yaw": [
+        -1.839563662179277,
+        -0.7848602259237795
+      ]
+    },
+    {
+      "task": "branch_0319",
+      "scene": "narrow_corridor_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 289,
+      "goal_yaw": [
+        1.5980913747720067,
+        -1.2025405710377737
+      ]
+    },
+    {
+      "task": "branch_0320",
+      "scene": "narrow_corridor_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 290,
+      "goal_yaw": [
+        -1.6940920321611979,
+        -1.0630391774169565
+      ]
+    },
+    {
+      "task": "branch_0321",
+      "scene": "narrow_corridor_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 291,
+      "goal_yaw": [
+        1.7518102574264287,
+        0.9649667603406917
+      ]
+    },
+    {
+      "task": "branch_0322",
+      "scene": "l_shape_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 292,
+      "goal_yaw": [
+        0.5389087093687813,
+        1.9260263373981545
+      ]
+    },
+    {
+      "task": "branch_0323",
+      "scene": "l_shape_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 293,
+      "goal_yaw": [
+        -1.9989156278148248,
+        0.06585067518279197
+      ]
+    },
+    {
+      "task": "branch_0324",
+      "scene": "l_shape_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 294,
+      "goal_yaw": [
+        -0.7293955137690065,
+        1.8622519445822463
+      ]
+    },
+    {
+      "task": "branch_0325",
+      "scene": "l_shape_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 295,
+      "goal_yaw": [
+        -0.7694749904432641,
+        1.846052034921329
+      ]
+    },
+    {
+      "task": "branch_0326",
+      "scene": "narrow_corridor_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "excluded_prefix_collision": true
+    },
+    {
+      "task": "branch_0327",
+      "scene": "narrow_corridor_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "excluded_prefix_collision": true
+    },
+    {
+      "task": "branch_0328",
+      "scene": "offset_pillars_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 296,
+      "goal_yaw": [
+        0.22275798393330898,
+        -1.9875560593027675
+      ]
+    },
+    {
+      "task": "branch_0329",
+      "scene": "offset_pillars_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "excluded_prefix_collision": true
+    },
+    {
+      "task": "branch_0330",
+      "scene": "l_shape_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 297,
+      "goal_yaw": [
+        -1.294849684040561,
+        -1.5242586074534972
+      ]
+    },
+    {
+      "task": "branch_0331",
+      "scene": "l_shape_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 298,
+      "goal_yaw": [
+        -1.1551633639189476,
+        1.6326657480153084
+      ]
+    },
+    {
+      "task": "branch_0332",
+      "scene": "single_pillar_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "excluded_prefix_collision": true
+    },
+    {
+      "task": "branch_0333",
+      "scene": "single_pillar_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 299,
+      "goal_yaw": [
+        0.7605344190726803,
+        -1.8497532742893652
+      ]
+    },
+    {
+      "task": "branch_0334",
+      "scene": "single_pillar_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 300,
+      "goal_yaw": [
+        -1.13019514630055,
+        1.6500481414835482
+      ]
+    },
+    {
+      "task": "branch_0335",
+      "scene": "single_pillar_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 301,
+      "goal_yaw": [
+        -0.051338200162266284,
+        1.9993410089813382
+      ]
+    },
+    {
+      "task": "branch_0336",
+      "scene": "two_pillars_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 302,
+      "goal_yaw": [
+        -0.4438941464017595,
+        -1.950117399789402
+      ]
+    },
+    {
+      "task": "branch_0337",
+      "scene": "two_pillars_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 303,
+      "goal_yaw": [
+        -0.3927295251884472,
+        -1.9610617855157322
+      ]
+    },
+    {
+      "task": "branch_0338",
+      "scene": "single_pillar_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 304,
+      "goal_yaw": [
+        -0.2982937475632094,
+        -1.9776300920271446
+      ]
+    },
+    {
+      "task": "branch_0339",
+      "scene": "single_pillar_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 305,
+      "goal_yaw": [
+        0.764432691152687,
+        1.8481456733469965
+      ]
+    },
+    {
+      "task": "branch_0340",
+      "scene": "single_pillar_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 306,
+      "goal_yaw": [
+        -1.9628732054554074,
+        0.3835735368436108
+      ]
+    },
+    {
+      "task": "branch_0341",
+      "scene": "single_pillar_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 307,
+      "goal_yaw": [
+        -0.9885592869726262,
+        -1.7386058573717125
+      ]
+    },
+    {
+      "task": "branch_0342",
+      "scene": "offset_pillars_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 308,
+      "goal_yaw": [
+        1.6139789205537638,
+        -1.1811317634932335
+      ]
+    },
+    {
+      "task": "branch_0343",
+      "scene": "offset_pillars_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 309,
+      "goal_yaw": [
+        -1.092216633625898,
+        -1.6754291461555888
+      ]
+    },
+    {
+      "task": "branch_0344",
+      "scene": "l_shape_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 310,
+      "goal_yaw": [
+        -1.4507218995149018,
+        -1.3767374166520283
+      ]
+    },
+    {
+      "task": "branch_0345",
+      "scene": "l_shape_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 311,
+      "goal_yaw": [
+        0.18293383431615148,
+        -1.9916162324031559
+      ]
+    },
+    {
+      "task": "branch_0346",
+      "scene": "offset_pillars_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 312,
+      "goal_yaw": [
+        -1.9962403439157879,
+        0.1225737926352236
+      ]
+    },
+    {
+      "task": "branch_0347",
+      "scene": "offset_pillars_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 313,
+      "goal_yaw": [
+        1.9285515540534786,
+        0.5298006961726015
+      ]
+    },
+    {
+      "task": "branch_0348",
+      "scene": "single_pillar_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 314,
+      "goal_yaw": [
+        -1.9929524450078828,
+        0.16775134082315765
+      ]
+    },
+    {
+      "task": "branch_0349",
+      "scene": "single_pillar_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 315,
+      "goal_yaw": [
+        0.9951261542211427,
+        -1.7348556574209524
+      ]
+    },
+    {
+      "task": "branch_0350",
+      "scene": "l_shape_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "excluded_prefix_collision": true
+    },
+    {
+      "task": "branch_0351",
+      "scene": "l_shape_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 316,
+      "goal_yaw": [
+        1.4883261042526403,
+        -1.3359959578902496
+      ]
+    },
+    {
+      "task": "branch_0352",
+      "scene": "single_pillar_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 317,
+      "goal_yaw": [
+        -0.8595096704092098,
+        -1.805891199259191
+      ]
+    },
+    {
+      "task": "branch_0353",
+      "scene": "single_pillar_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 318,
+      "goal_yaw": [
+        -0.4702011416651482,
+        -1.9439420990570155
+      ]
+    },
+    {
+      "task": "branch_0354",
+      "scene": "narrow_corridor_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "excluded_prefix_collision": true
+    },
+    {
+      "task": "branch_0355",
+      "scene": "narrow_corridor_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 319,
+      "goal_yaw": [
+        -1.885319623303518,
+        0.6675103635960119
+      ]
+    },
+    {
+      "task": "branch_0356",
+      "scene": "two_pillars_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 320,
+      "goal_yaw": [
+        -1.619575101294196,
+        1.173446404010117
+      ]
+    },
+    {
+      "task": "branch_0357",
+      "scene": "two_pillars_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 321,
+      "goal_yaw": [
+        1.931495376681852,
+        0.5189657577820167
+      ]
+    },
+    {
+      "task": "branch_0358",
+      "scene": "two_pillars_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 322,
+      "goal_yaw": [
+        1.9997877700582896,
+        -0.029138801806329405
+      ]
+    },
+    {
+      "task": "branch_0359",
+      "scene": "two_pillars_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 323,
+      "goal_yaw": [
+        -1.0044864029361669,
+        1.7294528068803725
+      ]
+    },
+    {
+      "task": "branch_0360",
+      "scene": "narrow_corridor_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 324,
+      "goal_yaw": [
+        1.0073575926822693,
+        -1.7277820317847588
+      ]
+    },
+    {
+      "task": "branch_0361",
+      "scene": "narrow_corridor_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 325,
+      "goal_yaw": [
+        0.6433784966285592,
+        1.8936905631525955
+      ]
+    },
+    {
+      "task": "branch_0362",
+      "scene": "narrow_corridor_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 326,
+      "goal_yaw": [
+        -0.3871674381216281,
+        1.9621675001703016
+      ]
+    },
+    {
+      "task": "branch_0363",
+      "scene": "narrow_corridor_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 327,
+      "goal_yaw": [
+        1.9934920788266746,
+        0.16121181466859574
+      ]
+    },
+    {
+      "task": "branch_0364",
+      "scene": "l_shape_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 328,
+      "goal_yaw": [
+        1.9993050449115286,
+        -0.05272124631897475
+      ]
+    },
+    {
+      "task": "branch_0365",
+      "scene": "l_shape_004",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 329,
+      "goal_yaw": [
+        0.19749270426308593,
+        1.990225282317206
+      ]
+    },
+    {
+      "task": "branch_0366",
+      "scene": "two_pillars_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "tracking",
+      "sample_index": 330,
+      "goal_yaw": [
+        -1.7480152729810703,
+        0.9718242663980798
+      ]
+    },
+    {
+      "task": "branch_0367",
+      "scene": "two_pillars_005",
+      "tier": "ood_extrap_heldout_geometry",
+      "mode": "perturbation",
+      "sample_index": 331,
+      "goal_yaw": [
+        0.5773398038541695,
+        -1.914857403314895
+      ]
+    }
+  ],
+  "records": [
+    {
+      "subset_seed": 901,
+      "budget": 8,
+      "fit_episodes": [
+        "calibration_044",
+        "calibration_045",
+        "calibration_014",
+        "calibration_015",
+        "calibration_016",
+        "calibration_017"
+      ],
+      "validation_episodes": [
+        "calibration_012",
+        "calibration_013"
+      ],
+      "fit_windows": 83,
+      "validation_windows": 28,
+      "center": "zero",
+      "status": "complete",
+      "outcome_index": 0,
+      "selected_lambda": 0.1,
+      "validation_rmse": 0.2506180639795985,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.28408637813756404
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.2828665751658304
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.27536671287668474
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.25664566523048005
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.2506180639795985
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.2770284493933017
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.392351028656094
+        }
+      ],
+      "weight_file": "fit_901_8_zero.npz",
+      "weight_sha256": "f1fee83bebad4777ee3b32641814d06d63d764a13c584b69ee04b20a789c6d19"
+    },
+    {
+      "subset_seed": 901,
+      "budget": 8,
+      "fit_episodes": [
+        "calibration_044",
+        "calibration_045",
+        "calibration_014",
+        "calibration_015",
+        "calibration_016",
+        "calibration_017"
+      ],
+      "validation_episodes": [
+        "calibration_012",
+        "calibration_013"
+      ],
+      "fit_windows": 83,
+      "validation_windows": 28,
+      "center": "physical",
+      "status": "complete",
+      "outcome_index": 1,
+      "selected_lambda": 0.01,
+      "validation_rmse": 0.257766428298086,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.2842504006408163
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.28299657200567646
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.27546443889235334
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.257766428298086
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.2628379241006997
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.32476850546602326
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.41256565924346733
+        }
+      ],
+      "weight_file": "fit_901_8_physical.npz",
+      "weight_sha256": "9e0101c22a2c5ad20781c2b3d23e97a589646e2c7164c26a4795397d148bc508"
+    },
+    {
+      "subset_seed": 901,
+      "budget": 16,
+      "fit_episodes": [
+        "calibration_044",
+        "calibration_045",
+        "calibration_014",
+        "calibration_015",
+        "calibration_016",
+        "calibration_017",
+        "calibration_012",
+        "calibration_013",
+        "calibration_062",
+        "calibration_063",
+        "calibration_004",
+        "calibration_005"
+      ],
+      "validation_episodes": [
+        "calibration_000",
+        "calibration_001",
+        "calibration_046",
+        "calibration_047"
+      ],
+      "fit_windows": 167,
+      "validation_windows": 56,
+      "center": "zero",
+      "status": "complete",
+      "outcome_index": 2,
+      "selected_lambda": 0.0001,
+      "validation_rmse": 0.6126571600982287,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.6202389726095292
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.6126571600982287
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.6584073024169982
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.6876720288366852
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.7249493612370357
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.7493778041087381
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.7947620905024736
+        }
+      ],
+      "weight_file": "fit_901_16_zero.npz",
+      "weight_sha256": "54a3dc444d0e85b9a0b3554ad6e9a9a330467f6bf4ff23a876c912b80e37c6a5"
+    },
+    {
+      "subset_seed": 901,
+      "budget": 16,
+      "fit_episodes": [
+        "calibration_044",
+        "calibration_045",
+        "calibration_014",
+        "calibration_015",
+        "calibration_016",
+        "calibration_017",
+        "calibration_012",
+        "calibration_013",
+        "calibration_062",
+        "calibration_063",
+        "calibration_004",
+        "calibration_005"
+      ],
+      "validation_episodes": [
+        "calibration_000",
+        "calibration_001",
+        "calibration_046",
+        "calibration_047"
+      ],
+      "fit_windows": 167,
+      "validation_windows": 56,
+      "center": "physical",
+      "status": "complete",
+      "outcome_index": 3,
+      "selected_lambda": 0.0001,
+      "validation_rmse": 0.6121707009643947,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.6201045227043774
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.6121707009643947
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.6570131773749875
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.6835363393156747
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.7212280592792356
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.7737380927172887
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.9191407968465479
+        }
+      ],
+      "weight_file": "fit_901_16_physical.npz",
+      "weight_sha256": "885fa1a78848a990c5698c8272abbfc3634b4fb856b165ed63c549899c1bf9e2"
+    },
+    {
+      "subset_seed": 901,
+      "budget": 32,
+      "fit_episodes": [
+        "calibration_044",
+        "calibration_045",
+        "calibration_014",
+        "calibration_015",
+        "calibration_016",
+        "calibration_017",
+        "calibration_012",
+        "calibration_013",
+        "calibration_062",
+        "calibration_063",
+        "calibration_004",
+        "calibration_005",
+        "calibration_000",
+        "calibration_001",
+        "calibration_046",
+        "calibration_047",
+        "calibration_056",
+        "calibration_057",
+        "calibration_036",
+        "calibration_037",
+        "calibration_010",
+        "calibration_011",
+        "calibration_034",
+        "calibration_035"
+      ],
+      "validation_episodes": [
+        "calibration_052",
+        "calibration_053",
+        "calibration_022",
+        "calibration_023",
+        "calibration_048",
+        "calibration_049",
+        "calibration_030",
+        "calibration_031"
+      ],
+      "fit_windows": 335,
+      "validation_windows": 112,
+      "center": "zero",
+      "status": "complete",
+      "outcome_index": 4,
+      "selected_lambda": 0.1,
+      "validation_rmse": 0.18854292911859366,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.35277412383387996
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.29553225875342526
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.2571265070053053
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.20519746470784367
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.18854292911859366
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.20902119676889863
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.3074148847241729
+        }
+      ],
+      "weight_file": "fit_901_32_zero.npz",
+      "weight_sha256": "e5703c3f5ccaa9440689543027a8135652a03726b67d4941bbf7131de75ceb87"
+    },
+    {
+      "subset_seed": 901,
+      "budget": 32,
+      "fit_episodes": [
+        "calibration_044",
+        "calibration_045",
+        "calibration_014",
+        "calibration_015",
+        "calibration_016",
+        "calibration_017",
+        "calibration_012",
+        "calibration_013",
+        "calibration_062",
+        "calibration_063",
+        "calibration_004",
+        "calibration_005",
+        "calibration_000",
+        "calibration_001",
+        "calibration_046",
+        "calibration_047",
+        "calibration_056",
+        "calibration_057",
+        "calibration_036",
+        "calibration_037",
+        "calibration_010",
+        "calibration_011",
+        "calibration_034",
+        "calibration_035"
+      ],
+      "validation_episodes": [
+        "calibration_052",
+        "calibration_053",
+        "calibration_022",
+        "calibration_023",
+        "calibration_048",
+        "calibration_049",
+        "calibration_030",
+        "calibration_031"
+      ],
+      "fit_windows": 335,
+      "validation_windows": 112,
+      "center": "physical",
+      "status": "complete",
+      "outcome_index": 5,
+      "selected_lambda": 1.0,
+      "validation_rmse": 0.17202950692514815,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.35283510929389045
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.29574961407686007
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.2576479317659621
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.2062777286573026
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.18653880580748236
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.17202950692514815
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.2002337082323615
+        }
+      ],
+      "weight_file": "fit_901_32_physical.npz",
+      "weight_sha256": "40d04e72ab3143277b6d20c904f3b8dab7b5dd79fe5c731bb973cd904b7d42b1"
+    },
+    {
+      "subset_seed": 901,
+      "budget": 64,
+      "fit_episodes": [
+        "calibration_044",
+        "calibration_045",
+        "calibration_014",
+        "calibration_015",
+        "calibration_016",
+        "calibration_017",
+        "calibration_012",
+        "calibration_013",
+        "calibration_062",
+        "calibration_063",
+        "calibration_004",
+        "calibration_005",
+        "calibration_000",
+        "calibration_001",
+        "calibration_046",
+        "calibration_047",
+        "calibration_056",
+        "calibration_057",
+        "calibration_036",
+        "calibration_037",
+        "calibration_010",
+        "calibration_011",
+        "calibration_034",
+        "calibration_035",
+        "calibration_052",
+        "calibration_053",
+        "calibration_022",
+        "calibration_023",
+        "calibration_048",
+        "calibration_049",
+        "calibration_030",
+        "calibration_031",
+        "calibration_008",
+        "calibration_009",
+        "calibration_026",
+        "calibration_027",
+        "calibration_040",
+        "calibration_041",
+        "calibration_028",
+        "calibration_029",
+        "calibration_032",
+        "calibration_033",
+        "calibration_058",
+        "calibration_059",
+        "calibration_024",
+        "calibration_025",
+        "calibration_050",
+        "calibration_051"
+      ],
+      "validation_episodes": [
+        "calibration_054",
+        "calibration_055",
+        "calibration_042",
+        "calibration_043",
+        "calibration_002",
+        "calibration_003",
+        "calibration_020",
+        "calibration_021",
+        "calibration_038",
+        "calibration_039",
+        "calibration_006",
+        "calibration_007",
+        "calibration_060",
+        "calibration_061",
+        "calibration_018",
+        "calibration_019"
+      ],
+      "fit_windows": 671,
+      "validation_windows": 218,
+      "center": "zero",
+      "status": "complete",
+      "outcome_index": 6,
+      "selected_lambda": 0.01,
+      "validation_rmse": 0.13558086517228252,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.1785261740166235
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.1651915203288795
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.14758681544314667
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.13558086517228252
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.14454606352577476
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.16786187789820511
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.279342191134457
+        }
+      ],
+      "weight_file": "fit_901_64_zero.npz",
+      "weight_sha256": "c4fc74f6f173442874c4b479e053adcaafa7b92a8e4b561ccd543fc9b4e0e25e"
+    },
+    {
+      "subset_seed": 901,
+      "budget": 64,
+      "fit_episodes": [
+        "calibration_044",
+        "calibration_045",
+        "calibration_014",
+        "calibration_015",
+        "calibration_016",
+        "calibration_017",
+        "calibration_012",
+        "calibration_013",
+        "calibration_062",
+        "calibration_063",
+        "calibration_004",
+        "calibration_005",
+        "calibration_000",
+        "calibration_001",
+        "calibration_046",
+        "calibration_047",
+        "calibration_056",
+        "calibration_057",
+        "calibration_036",
+        "calibration_037",
+        "calibration_010",
+        "calibration_011",
+        "calibration_034",
+        "calibration_035",
+        "calibration_052",
+        "calibration_053",
+        "calibration_022",
+        "calibration_023",
+        "calibration_048",
+        "calibration_049",
+        "calibration_030",
+        "calibration_031",
+        "calibration_008",
+        "calibration_009",
+        "calibration_026",
+        "calibration_027",
+        "calibration_040",
+        "calibration_041",
+        "calibration_028",
+        "calibration_029",
+        "calibration_032",
+        "calibration_033",
+        "calibration_058",
+        "calibration_059",
+        "calibration_024",
+        "calibration_025",
+        "calibration_050",
+        "calibration_051"
+      ],
+      "validation_episodes": [
+        "calibration_054",
+        "calibration_055",
+        "calibration_042",
+        "calibration_043",
+        "calibration_002",
+        "calibration_003",
+        "calibration_020",
+        "calibration_021",
+        "calibration_038",
+        "calibration_039",
+        "calibration_006",
+        "calibration_007",
+        "calibration_060",
+        "calibration_061",
+        "calibration_018",
+        "calibration_019"
+      ],
+      "fit_windows": 671,
+      "validation_windows": 218,
+      "center": "physical",
+      "status": "complete",
+      "outcome_index": 7,
+      "selected_lambda": 0.01,
+      "validation_rmse": 0.13743349490693008,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.17853789168988438
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.16527149287634632
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.1480638080297425
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.13743349490693008
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.147350723814628
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.1601657611215988
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.21771330692121704
+        }
+      ],
+      "weight_file": "fit_901_64_physical.npz",
+      "weight_sha256": "49d5049ede269d79bbcacf91c0110ab8404883358f69b62daa0192fe7e9e229e"
+    },
+    {
+      "subset_seed": 902,
+      "budget": 8,
+      "fit_episodes": [
+        "calibration_014",
+        "calibration_015",
+        "calibration_034",
+        "calibration_035",
+        "calibration_050",
+        "calibration_051"
+      ],
+      "validation_episodes": [
+        "calibration_052",
+        "calibration_053"
+      ],
+      "fit_windows": 83,
+      "validation_windows": 28,
+      "center": "zero",
+      "status": "complete",
+      "outcome_index": 8,
+      "selected_lambda": 0.1,
+      "validation_rmse": 0.23183266196914584,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.2821547797300603
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.27911912580213744
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.2647353601791169
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.2386461614480653
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.23183266196914584
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.26467098704977754
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.31297081770377105
+        }
+      ],
+      "weight_file": "fit_902_8_zero.npz",
+      "weight_sha256": "689e2c5d03e81964ec3af32dc3c1d5c60858277b47f69647e462927529ee88da"
+    },
+    {
+      "subset_seed": 902,
+      "budget": 8,
+      "fit_episodes": [
+        "calibration_014",
+        "calibration_015",
+        "calibration_034",
+        "calibration_035",
+        "calibration_050",
+        "calibration_051"
+      ],
+      "validation_episodes": [
+        "calibration_052",
+        "calibration_053"
+      ],
+      "fit_windows": 83,
+      "validation_windows": 28,
+      "center": "physical",
+      "status": "complete",
+      "outcome_index": 9,
+      "selected_lambda": 0.1,
+      "validation_rmse": 0.22373616578141606,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.28056454916945944
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.2773873804063107
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.2623912098700234
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.23542285278543862
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.22373616578141606
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.2287750339845966
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.2559672153339292
+        }
+      ],
+      "weight_file": "fit_902_8_physical.npz",
+      "weight_sha256": "601bba6e8be88e10d616131e1d0bf2c346a1db07df93fd3caefcbfca6843e551"
+    },
+    {
+      "subset_seed": 902,
+      "budget": 16,
+      "fit_episodes": [
+        "calibration_014",
+        "calibration_015",
+        "calibration_034",
+        "calibration_035",
+        "calibration_050",
+        "calibration_051",
+        "calibration_052",
+        "calibration_053",
+        "calibration_038",
+        "calibration_039",
+        "calibration_058",
+        "calibration_059"
+      ],
+      "validation_episodes": [
+        "calibration_042",
+        "calibration_043",
+        "calibration_044",
+        "calibration_045"
+      ],
+      "fit_windows": 161,
+      "validation_windows": 56,
+      "center": "zero",
+      "status": "complete",
+      "outcome_index": 10,
+      "selected_lambda": 1.0,
+      "validation_rmse": 0.35878351437564354,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.4027176771268516
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.37850199368192966
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.38764547294552526
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.3910231808412974
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.3774665111750678
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.35878351437564354
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.3667748791661433
+        }
+      ],
+      "weight_file": "fit_902_16_zero.npz",
+      "weight_sha256": "3e044c9fa154931da4916177d576b9b3a721a7d1a300eeae2092cc4492c1004f"
+    },
+    {
+      "subset_seed": 902,
+      "budget": 16,
+      "fit_episodes": [
+        "calibration_014",
+        "calibration_015",
+        "calibration_034",
+        "calibration_035",
+        "calibration_050",
+        "calibration_051",
+        "calibration_052",
+        "calibration_053",
+        "calibration_038",
+        "calibration_039",
+        "calibration_058",
+        "calibration_059"
+      ],
+      "validation_episodes": [
+        "calibration_042",
+        "calibration_043",
+        "calibration_044",
+        "calibration_045"
+      ],
+      "fit_windows": 161,
+      "validation_windows": 56,
+      "center": "physical",
+      "status": "complete",
+      "outcome_index": 11,
+      "selected_lambda": 0.0001,
+      "validation_rmse": 0.3817658249687251,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.4050144301145636
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.3817658249687251
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.39281443235746855
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.40197378280476637
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.41575600354366044
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.48861321239285205
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.6090258624968489
+        }
+      ],
+      "weight_file": "fit_902_16_physical.npz",
+      "weight_sha256": "9392cccefe770b48aeee120906e3670a64211cfc1ec1b41a14cb02e4919ccfa9"
+    },
+    {
+      "subset_seed": 902,
+      "budget": 32,
+      "fit_episodes": [
+        "calibration_014",
+        "calibration_015",
+        "calibration_034",
+        "calibration_035",
+        "calibration_050",
+        "calibration_051",
+        "calibration_052",
+        "calibration_053",
+        "calibration_038",
+        "calibration_039",
+        "calibration_058",
+        "calibration_059",
+        "calibration_042",
+        "calibration_043",
+        "calibration_044",
+        "calibration_045",
+        "calibration_026",
+        "calibration_027",
+        "calibration_048",
+        "calibration_049",
+        "calibration_056",
+        "calibration_057",
+        "calibration_002",
+        "calibration_003"
+      ],
+      "validation_episodes": [
+        "calibration_040",
+        "calibration_041",
+        "calibration_028",
+        "calibration_029",
+        "calibration_062",
+        "calibration_063",
+        "calibration_020",
+        "calibration_021"
+      ],
+      "fit_windows": 329,
+      "validation_windows": 112,
+      "center": "zero",
+      "status": "complete",
+      "outcome_index": 12,
+      "selected_lambda": 0.1,
+      "validation_rmse": 0.12915820508938927,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.30641792469669515
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.23192012544331084
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.1722463063425784
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.13675170162850364
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.12915820508938927
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.17820993341198238
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.3616812407271827
+        }
+      ],
+      "weight_file": "fit_902_32_zero.npz",
+      "weight_sha256": "bdefb1ce0c774434b488220ceddd57f783d37f73fbd365acd0a9c34e50926d13"
+    },
+    {
+      "subset_seed": 902,
+      "budget": 32,
+      "fit_episodes": [
+        "calibration_014",
+        "calibration_015",
+        "calibration_034",
+        "calibration_035",
+        "calibration_050",
+        "calibration_051",
+        "calibration_052",
+        "calibration_053",
+        "calibration_038",
+        "calibration_039",
+        "calibration_058",
+        "calibration_059",
+        "calibration_042",
+        "calibration_043",
+        "calibration_044",
+        "calibration_045",
+        "calibration_026",
+        "calibration_027",
+        "calibration_048",
+        "calibration_049",
+        "calibration_056",
+        "calibration_057",
+        "calibration_002",
+        "calibration_003"
+      ],
+      "validation_episodes": [
+        "calibration_040",
+        "calibration_041",
+        "calibration_028",
+        "calibration_029",
+        "calibration_062",
+        "calibration_063",
+        "calibration_020",
+        "calibration_021"
+      ],
+      "fit_windows": 329,
+      "validation_windows": 112,
+      "center": "physical",
+      "status": "complete",
+      "outcome_index": 13,
+      "selected_lambda": 0.1,
+      "validation_rmse": 0.12097027958810944,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.3064679566895793
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.23210889965872225
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.17241711638597745
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.13628791566052498
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.12097027958810944
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.12098682981055348
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.16979284346216997
+        }
+      ],
+      "weight_file": "fit_902_32_physical.npz",
+      "weight_sha256": "c074d1b3148a2fbba17b2efc12df3de84e31e3ad95492c5ce3748a7ccdd21583"
+    },
+    {
+      "subset_seed": 902,
+      "budget": 64,
+      "fit_episodes": [
+        "calibration_014",
+        "calibration_015",
+        "calibration_034",
+        "calibration_035",
+        "calibration_050",
+        "calibration_051",
+        "calibration_052",
+        "calibration_053",
+        "calibration_038",
+        "calibration_039",
+        "calibration_058",
+        "calibration_059",
+        "calibration_042",
+        "calibration_043",
+        "calibration_044",
+        "calibration_045",
+        "calibration_026",
+        "calibration_027",
+        "calibration_048",
+        "calibration_049",
+        "calibration_056",
+        "calibration_057",
+        "calibration_002",
+        "calibration_003",
+        "calibration_040",
+        "calibration_041",
+        "calibration_028",
+        "calibration_029",
+        "calibration_062",
+        "calibration_063",
+        "calibration_020",
+        "calibration_021",
+        "calibration_000",
+        "calibration_001",
+        "calibration_032",
+        "calibration_033",
+        "calibration_024",
+        "calibration_025",
+        "calibration_054",
+        "calibration_055",
+        "calibration_022",
+        "calibration_023",
+        "calibration_030",
+        "calibration_031",
+        "calibration_046",
+        "calibration_047",
+        "calibration_060",
+        "calibration_061"
+      ],
+      "validation_episodes": [
+        "calibration_036",
+        "calibration_037",
+        "calibration_012",
+        "calibration_013",
+        "calibration_018",
+        "calibration_019",
+        "calibration_008",
+        "calibration_009",
+        "calibration_016",
+        "calibration_017",
+        "calibration_006",
+        "calibration_007",
+        "calibration_004",
+        "calibration_005",
+        "calibration_010",
+        "calibration_011"
+      ],
+      "fit_windows": 665,
+      "validation_windows": 224,
+      "center": "zero",
+      "status": "complete",
+      "outcome_index": 14,
+      "selected_lambda": 0.01,
+      "validation_rmse": 0.22568301380640068,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.2738126184991255
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.26113909267003754
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.24279302341524206
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.22568301380640068
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.22611182605662328
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.24849669673082214
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.36292232380677386
+        }
+      ],
+      "weight_file": "fit_902_64_zero.npz",
+      "weight_sha256": "674ef612a028fb4852851a81c9bde1dc35a615e6f1070ea4fd48c53e5522de1f"
+    },
+    {
+      "subset_seed": 902,
+      "budget": 64,
+      "fit_episodes": [
+        "calibration_014",
+        "calibration_015",
+        "calibration_034",
+        "calibration_035",
+        "calibration_050",
+        "calibration_051",
+        "calibration_052",
+        "calibration_053",
+        "calibration_038",
+        "calibration_039",
+        "calibration_058",
+        "calibration_059",
+        "calibration_042",
+        "calibration_043",
+        "calibration_044",
+        "calibration_045",
+        "calibration_026",
+        "calibration_027",
+        "calibration_048",
+        "calibration_049",
+        "calibration_056",
+        "calibration_057",
+        "calibration_002",
+        "calibration_003",
+        "calibration_040",
+        "calibration_041",
+        "calibration_028",
+        "calibration_029",
+        "calibration_062",
+        "calibration_063",
+        "calibration_020",
+        "calibration_021",
+        "calibration_000",
+        "calibration_001",
+        "calibration_032",
+        "calibration_033",
+        "calibration_024",
+        "calibration_025",
+        "calibration_054",
+        "calibration_055",
+        "calibration_022",
+        "calibration_023",
+        "calibration_030",
+        "calibration_031",
+        "calibration_046",
+        "calibration_047",
+        "calibration_060",
+        "calibration_061"
+      ],
+      "validation_episodes": [
+        "calibration_036",
+        "calibration_037",
+        "calibration_012",
+        "calibration_013",
+        "calibration_018",
+        "calibration_019",
+        "calibration_008",
+        "calibration_009",
+        "calibration_016",
+        "calibration_017",
+        "calibration_006",
+        "calibration_007",
+        "calibration_004",
+        "calibration_005",
+        "calibration_010",
+        "calibration_011"
+      ],
+      "fit_windows": 665,
+      "validation_windows": 224,
+      "center": "physical",
+      "status": "complete",
+      "outcome_index": 15,
+      "selected_lambda": 0.1,
+      "validation_rmse": 0.22460844013756454,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.27381798966398857
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.26117421497058513
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.24294788445973084
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.22601482220543376
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.22460844013756454
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.22625682967074778
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.2675203579932598
+        }
+      ],
+      "weight_file": "fit_902_64_physical.npz",
+      "weight_sha256": "39ab50ea28a523d8efbf370cb2dd3d7f656f4fc3b9d950c04bbc18f85a2432f0"
+    },
+    {
+      "subset_seed": 903,
+      "budget": 8,
+      "fit_episodes": [
+        "calibration_056",
+        "calibration_057",
+        "calibration_004",
+        "calibration_005",
+        "calibration_046",
+        "calibration_047"
+      ],
+      "validation_episodes": [
+        "calibration_060",
+        "calibration_061"
+      ],
+      "fit_windows": 84,
+      "validation_windows": 28,
+      "center": "zero",
+      "status": "complete",
+      "outcome_index": 16,
+      "selected_lambda": 0.01,
+      "validation_rmse": 0.42800339710864,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.527360750545645
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.5014146598085337
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.44739229056504576
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.42800339710864
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.434902718299363
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.44402415296584924
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.4744354730450088
+        }
+      ],
+      "weight_file": "fit_903_8_zero.npz",
+      "weight_sha256": "48d01d5e0d6d3de4841cf8bd60b607237d2a6e56899c0458608acd5e04a62f00"
+    },
+    {
+      "subset_seed": 903,
+      "budget": 8,
+      "fit_episodes": [
+        "calibration_056",
+        "calibration_057",
+        "calibration_004",
+        "calibration_005",
+        "calibration_046",
+        "calibration_047"
+      ],
+      "validation_episodes": [
+        "calibration_060",
+        "calibration_061"
+      ],
+      "fit_windows": 84,
+      "validation_windows": 28,
+      "center": "physical",
+      "status": "complete",
+      "outcome_index": 17,
+      "selected_lambda": 10.0,
+      "validation_rmse": 0.3336320038374417,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.5244414994052865
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.4979756287585407
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.44278676146488216
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.42156661899700176
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.4030084539068507
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.3425516527869889
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.3336320038374417
+        }
+      ],
+      "weight_file": "fit_903_8_physical.npz",
+      "weight_sha256": "ea4d9cb55b6b71a46958e387e032985a65aadd17ec7858869dbf4ea7ec17cd31"
+    },
+    {
+      "subset_seed": 903,
+      "budget": 16,
+      "fit_episodes": [
+        "calibration_056",
+        "calibration_057",
+        "calibration_004",
+        "calibration_005",
+        "calibration_046",
+        "calibration_047",
+        "calibration_060",
+        "calibration_061",
+        "calibration_028",
+        "calibration_029",
+        "calibration_038",
+        "calibration_039"
+      ],
+      "validation_episodes": [
+        "calibration_044",
+        "calibration_045",
+        "calibration_008",
+        "calibration_009"
+      ],
+      "fit_windows": 162,
+      "validation_windows": 56,
+      "center": "zero",
+      "status": "complete",
+      "outcome_index": 18,
+      "selected_lambda": 1.0,
+      "validation_rmse": 0.23817746499968312,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.40582514229549477
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.38721823926617893
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.3485350010790083
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.279008756471931
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.25180922673699063
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.23817746499968312
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.2832500586911433
+        }
+      ],
+      "weight_file": "fit_903_16_zero.npz",
+      "weight_sha256": "1f0a9436fdab4cc68eba9222bb839086869e78e1f58241bb2f6532986ec5cdd3"
+    },
+    {
+      "subset_seed": 903,
+      "budget": 16,
+      "fit_episodes": [
+        "calibration_056",
+        "calibration_057",
+        "calibration_004",
+        "calibration_005",
+        "calibration_046",
+        "calibration_047",
+        "calibration_060",
+        "calibration_061",
+        "calibration_028",
+        "calibration_029",
+        "calibration_038",
+        "calibration_039"
+      ],
+      "validation_episodes": [
+        "calibration_044",
+        "calibration_045",
+        "calibration_008",
+        "calibration_009"
+      ],
+      "fit_windows": 162,
+      "validation_windows": 56,
+      "center": "physical",
+      "status": "complete",
+      "outcome_index": 19,
+      "selected_lambda": 1.0,
+      "validation_rmse": 0.25714729637487366,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.40620899096068025
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.38780974991948103
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.3496917094461382
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.28282330947803036
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.2613101013522537
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.25714729637487366
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.2880278004360015
+        }
+      ],
+      "weight_file": "fit_903_16_physical.npz",
+      "weight_sha256": "4a01291b3674d81c064f19fc3921d1d4947aee75110550c9c9b1daf6807be6d7"
+    },
+    {
+      "subset_seed": 903,
+      "budget": 32,
+      "fit_episodes": [
+        "calibration_056",
+        "calibration_057",
+        "calibration_004",
+        "calibration_005",
+        "calibration_046",
+        "calibration_047",
+        "calibration_060",
+        "calibration_061",
+        "calibration_028",
+        "calibration_029",
+        "calibration_038",
+        "calibration_039",
+        "calibration_044",
+        "calibration_045",
+        "calibration_008",
+        "calibration_009",
+        "calibration_020",
+        "calibration_021",
+        "calibration_042",
+        "calibration_043",
+        "calibration_050",
+        "calibration_051",
+        "calibration_018",
+        "calibration_019"
+      ],
+      "validation_episodes": [
+        "calibration_012",
+        "calibration_013",
+        "calibration_024",
+        "calibration_025",
+        "calibration_032",
+        "calibration_033",
+        "calibration_048",
+        "calibration_049"
+      ],
+      "fit_windows": 330,
+      "validation_windows": 112,
+      "center": "zero",
+      "status": "complete",
+      "outcome_index": 20,
+      "selected_lambda": 0.1,
+      "validation_rmse": 0.17774531748771716,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.47837576998502274
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.3913658799736773
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.26728684792670887
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.18450480670323724
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.17774531748771716
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.20051591618285408
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.31336516547999665
+        }
+      ],
+      "weight_file": "fit_903_32_zero.npz",
+      "weight_sha256": "46e415dadf93cf6fd49096f6db84aa122d93dcc9e932c032d3e74b4b7278ba50"
+    },
+    {
+      "subset_seed": 903,
+      "budget": 32,
+      "fit_episodes": [
+        "calibration_056",
+        "calibration_057",
+        "calibration_004",
+        "calibration_005",
+        "calibration_046",
+        "calibration_047",
+        "calibration_060",
+        "calibration_061",
+        "calibration_028",
+        "calibration_029",
+        "calibration_038",
+        "calibration_039",
+        "calibration_044",
+        "calibration_045",
+        "calibration_008",
+        "calibration_009",
+        "calibration_020",
+        "calibration_021",
+        "calibration_042",
+        "calibration_043",
+        "calibration_050",
+        "calibration_051",
+        "calibration_018",
+        "calibration_019"
+      ],
+      "validation_episodes": [
+        "calibration_012",
+        "calibration_013",
+        "calibration_024",
+        "calibration_025",
+        "calibration_032",
+        "calibration_033",
+        "calibration_048",
+        "calibration_049"
+      ],
+      "fit_windows": 330,
+      "validation_windows": 112,
+      "center": "physical",
+      "status": "complete",
+      "outcome_index": 21,
+      "selected_lambda": 0.1,
+      "validation_rmse": 0.18027842710644978,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.47842611048289785
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.39154565346931136
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.2680973766614751
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.18688459986554293
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.18027842710644978
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.19940704848195623
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.24896075061982018
+        }
+      ],
+      "weight_file": "fit_903_32_physical.npz",
+      "weight_sha256": "b4d97502a195d9a8fb1bec408ae1b8381f607b91064270ddf7ddc6bc36cfd1d0"
+    },
+    {
+      "subset_seed": 903,
+      "budget": 64,
+      "fit_episodes": [
+        "calibration_056",
+        "calibration_057",
+        "calibration_004",
+        "calibration_005",
+        "calibration_046",
+        "calibration_047",
+        "calibration_060",
+        "calibration_061",
+        "calibration_028",
+        "calibration_029",
+        "calibration_038",
+        "calibration_039",
+        "calibration_044",
+        "calibration_045",
+        "calibration_008",
+        "calibration_009",
+        "calibration_020",
+        "calibration_021",
+        "calibration_042",
+        "calibration_043",
+        "calibration_050",
+        "calibration_051",
+        "calibration_018",
+        "calibration_019",
+        "calibration_012",
+        "calibration_013",
+        "calibration_024",
+        "calibration_025",
+        "calibration_032",
+        "calibration_033",
+        "calibration_048",
+        "calibration_049",
+        "calibration_016",
+        "calibration_017",
+        "calibration_036",
+        "calibration_037",
+        "calibration_010",
+        "calibration_011",
+        "calibration_054",
+        "calibration_055",
+        "calibration_022",
+        "calibration_023",
+        "calibration_006",
+        "calibration_007",
+        "calibration_000",
+        "calibration_001",
+        "calibration_052",
+        "calibration_053"
+      ],
+      "validation_episodes": [
+        "calibration_002",
+        "calibration_003",
+        "calibration_026",
+        "calibration_027",
+        "calibration_062",
+        "calibration_063",
+        "calibration_058",
+        "calibration_059",
+        "calibration_030",
+        "calibration_031",
+        "calibration_034",
+        "calibration_035",
+        "calibration_040",
+        "calibration_041",
+        "calibration_014",
+        "calibration_015"
+      ],
+      "fit_windows": 666,
+      "validation_windows": 223,
+      "center": "zero",
+      "status": "complete",
+      "outcome_index": 22,
+      "selected_lambda": 0.01,
+      "validation_rmse": 0.16685626329571343,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.23769061262271937
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.21856486742369372
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.19208806172662693
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.16685626329571343
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.16849923937205152
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.213829837353841
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.36024426120528413
+        }
+      ],
+      "weight_file": "fit_903_64_zero.npz",
+      "weight_sha256": "3698a137068403d541d2e7a88e88d89dd8111367f8f4ecce0273ff54804c4673"
+    },
+    {
+      "subset_seed": 903,
+      "budget": 64,
+      "fit_episodes": [
+        "calibration_056",
+        "calibration_057",
+        "calibration_004",
+        "calibration_005",
+        "calibration_046",
+        "calibration_047",
+        "calibration_060",
+        "calibration_061",
+        "calibration_028",
+        "calibration_029",
+        "calibration_038",
+        "calibration_039",
+        "calibration_044",
+        "calibration_045",
+        "calibration_008",
+        "calibration_009",
+        "calibration_020",
+        "calibration_021",
+        "calibration_042",
+        "calibration_043",
+        "calibration_050",
+        "calibration_051",
+        "calibration_018",
+        "calibration_019",
+        "calibration_012",
+        "calibration_013",
+        "calibration_024",
+        "calibration_025",
+        "calibration_032",
+        "calibration_033",
+        "calibration_048",
+        "calibration_049",
+        "calibration_016",
+        "calibration_017",
+        "calibration_036",
+        "calibration_037",
+        "calibration_010",
+        "calibration_011",
+        "calibration_054",
+        "calibration_055",
+        "calibration_022",
+        "calibration_023",
+        "calibration_006",
+        "calibration_007",
+        "calibration_000",
+        "calibration_001",
+        "calibration_052",
+        "calibration_053"
+      ],
+      "validation_episodes": [
+        "calibration_002",
+        "calibration_003",
+        "calibration_026",
+        "calibration_027",
+        "calibration_062",
+        "calibration_063",
+        "calibration_058",
+        "calibration_059",
+        "calibration_030",
+        "calibration_031",
+        "calibration_034",
+        "calibration_035",
+        "calibration_040",
+        "calibration_041",
+        "calibration_014",
+        "calibration_015"
+      ],
+      "fit_windows": 666,
+      "validation_windows": 223,
+      "center": "physical",
+      "status": "complete",
+      "outcome_index": 23,
+      "selected_lambda": 0.1,
+      "validation_rmse": 0.16519852493069437,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.23769614090824742
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.2185909458844151
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.19216261386447817
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.16693307650860165
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.16519852493069437
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.1705913290228483
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.19894669314669217
+        }
+      ],
+      "weight_file": "fit_903_64_physical.npz",
+      "weight_sha256": "2ab67688e77c06037feeee3dcd6efecaf678541234dbb626f2fa652edac3f639"
+    },
+    {
+      "subset_seed": 904,
+      "budget": 8,
+      "fit_episodes": [
+        "calibration_030",
+        "calibration_031",
+        "calibration_054",
+        "calibration_055",
+        "calibration_042",
+        "calibration_043"
+      ],
+      "validation_episodes": [
+        "calibration_050",
+        "calibration_051"
+      ],
+      "fit_windows": 84,
+      "validation_windows": 28,
+      "center": "zero",
+      "status": "complete",
+      "outcome_index": 24,
+      "selected_lambda": 0.1,
+      "validation_rmse": 0.2655153078311837,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.36087086015665526
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.36235697616906754
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.34494987426361223
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.3032712859049658
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.2655153078311837
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.29095641379636644
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.45555555981661605
+        }
+      ],
+      "weight_file": "fit_904_8_zero.npz",
+      "weight_sha256": "fcc685831ddf522eb828fa75d029980f6a3c8ab58d4aca0ae1425d8c5ca15d41"
+    },
+    {
+      "subset_seed": 904,
+      "budget": 8,
+      "fit_episodes": [
+        "calibration_030",
+        "calibration_031",
+        "calibration_054",
+        "calibration_055",
+        "calibration_042",
+        "calibration_043"
+      ],
+      "validation_episodes": [
+        "calibration_050",
+        "calibration_051"
+      ],
+      "fit_windows": 84,
+      "validation_windows": 28,
+      "center": "physical",
+      "status": "complete",
+      "outcome_index": 25,
+      "selected_lambda": 0.1,
+      "validation_rmse": 0.22466455076218642,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.3509490204158786
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.3515819951821399
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.3265532717922767
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.27393257417049927
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.22466455076218642
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.23645780545951256
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.26175794445739936
+        }
+      ],
+      "weight_file": "fit_904_8_physical.npz",
+      "weight_sha256": "a0dc2bef8eebf9fe3d879f8b21e83cd59acdc2a04bd107f8aba8a34b10d88177"
+    },
+    {
+      "subset_seed": 904,
+      "budget": 16,
+      "fit_episodes": [
+        "calibration_030",
+        "calibration_031",
+        "calibration_054",
+        "calibration_055",
+        "calibration_042",
+        "calibration_043",
+        "calibration_050",
+        "calibration_051",
+        "calibration_010",
+        "calibration_011",
+        "calibration_052",
+        "calibration_053"
+      ],
+      "validation_episodes": [
+        "calibration_062",
+        "calibration_063",
+        "calibration_038",
+        "calibration_039"
+      ],
+      "fit_windows": 168,
+      "validation_windows": 50,
+      "center": "zero",
+      "status": "complete",
+      "outcome_index": 26,
+      "selected_lambda": 0.01,
+      "validation_rmse": 0.15656430825889062,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.2639606202355834
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.20670148019561232
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.16367024633375377
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.15656430825889062
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.18238690967365162
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.24194494103443376
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.3827691488289685
+        }
+      ],
+      "weight_file": "fit_904_16_zero.npz",
+      "weight_sha256": "98c2337f2c258047e13cdfbe5f0c8d6653504c045f07676475fb8aa8f2397bf6"
+    },
+    {
+      "subset_seed": 904,
+      "budget": 16,
+      "fit_episodes": [
+        "calibration_030",
+        "calibration_031",
+        "calibration_054",
+        "calibration_055",
+        "calibration_042",
+        "calibration_043",
+        "calibration_050",
+        "calibration_051",
+        "calibration_010",
+        "calibration_011",
+        "calibration_052",
+        "calibration_053"
+      ],
+      "validation_episodes": [
+        "calibration_062",
+        "calibration_063",
+        "calibration_038",
+        "calibration_039"
+      ],
+      "fit_windows": 168,
+      "validation_windows": 50,
+      "center": "physical",
+      "status": "complete",
+      "outcome_index": 27,
+      "selected_lambda": 0.01,
+      "validation_rmse": 0.1562878499310244,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.26496045470414376
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.2077826369763142
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.16483352793412748
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.1562878499310244
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.16687785993702936
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.16278780543623253
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.19796335212363517
+        }
+      ],
+      "weight_file": "fit_904_16_physical.npz",
+      "weight_sha256": "28ea151e19562672aaf9101d984988bbf55a1c0161aba97f4b17e0d7eed15599"
+    },
+    {
+      "subset_seed": 904,
+      "budget": 32,
+      "fit_episodes": [
+        "calibration_030",
+        "calibration_031",
+        "calibration_054",
+        "calibration_055",
+        "calibration_042",
+        "calibration_043",
+        "calibration_050",
+        "calibration_051",
+        "calibration_010",
+        "calibration_011",
+        "calibration_052",
+        "calibration_053",
+        "calibration_062",
+        "calibration_063",
+        "calibration_038",
+        "calibration_039",
+        "calibration_008",
+        "calibration_009",
+        "calibration_026",
+        "calibration_027",
+        "calibration_058",
+        "calibration_059",
+        "calibration_000",
+        "calibration_001"
+      ],
+      "validation_episodes": [
+        "calibration_006",
+        "calibration_007",
+        "calibration_020",
+        "calibration_021",
+        "calibration_032",
+        "calibration_033",
+        "calibration_022",
+        "calibration_023"
+      ],
+      "fit_windows": 330,
+      "validation_windows": 112,
+      "center": "zero",
+      "status": "complete",
+      "outcome_index": 28,
+      "selected_lambda": 0.01,
+      "validation_rmse": 0.11667102635860772,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.30580467013243967
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.21277290098181806
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.14828057885890453
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.11667102635860772
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.11819911255162013
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.1620534748043524
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.29452577122487433
+        }
+      ],
+      "weight_file": "fit_904_32_zero.npz",
+      "weight_sha256": "48ef17419b73a1fe6809ccf33f518652879fae33b2dda06b1c7161ff36d90d95"
+    },
+    {
+      "subset_seed": 904,
+      "budget": 32,
+      "fit_episodes": [
+        "calibration_030",
+        "calibration_031",
+        "calibration_054",
+        "calibration_055",
+        "calibration_042",
+        "calibration_043",
+        "calibration_050",
+        "calibration_051",
+        "calibration_010",
+        "calibration_011",
+        "calibration_052",
+        "calibration_053",
+        "calibration_062",
+        "calibration_063",
+        "calibration_038",
+        "calibration_039",
+        "calibration_008",
+        "calibration_009",
+        "calibration_026",
+        "calibration_027",
+        "calibration_058",
+        "calibration_059",
+        "calibration_000",
+        "calibration_001"
+      ],
+      "validation_episodes": [
+        "calibration_006",
+        "calibration_007",
+        "calibration_020",
+        "calibration_021",
+        "calibration_032",
+        "calibration_033",
+        "calibration_022",
+        "calibration_023"
+      ],
+      "fit_windows": 330,
+      "validation_windows": 112,
+      "center": "physical",
+      "status": "complete",
+      "outcome_index": 29,
+      "selected_lambda": 0.01,
+      "validation_rmse": 0.11792592625128734,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.30587434759336346
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.21294411042388897
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.1487401609455205
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.11792592625128734
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.1191934671826219
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.14404901452888041
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.20721739831744085
+        }
+      ],
+      "weight_file": "fit_904_32_physical.npz",
+      "weight_sha256": "23380089558f80f62f797dcc1e718f565f1a9ca18de931a14ee09425fab07c90"
+    },
+    {
+      "subset_seed": 904,
+      "budget": 64,
+      "fit_episodes": [
+        "calibration_030",
+        "calibration_031",
+        "calibration_054",
+        "calibration_055",
+        "calibration_042",
+        "calibration_043",
+        "calibration_050",
+        "calibration_051",
+        "calibration_010",
+        "calibration_011",
+        "calibration_052",
+        "calibration_053",
+        "calibration_062",
+        "calibration_063",
+        "calibration_038",
+        "calibration_039",
+        "calibration_008",
+        "calibration_009",
+        "calibration_026",
+        "calibration_027",
+        "calibration_058",
+        "calibration_059",
+        "calibration_000",
+        "calibration_001",
+        "calibration_006",
+        "calibration_007",
+        "calibration_020",
+        "calibration_021",
+        "calibration_032",
+        "calibration_033",
+        "calibration_022",
+        "calibration_023",
+        "calibration_024",
+        "calibration_025",
+        "calibration_014",
+        "calibration_015",
+        "calibration_018",
+        "calibration_019",
+        "calibration_040",
+        "calibration_041",
+        "calibration_016",
+        "calibration_017",
+        "calibration_004",
+        "calibration_005",
+        "calibration_012",
+        "calibration_013",
+        "calibration_036",
+        "calibration_037"
+      ],
+      "validation_episodes": [
+        "calibration_002",
+        "calibration_003",
+        "calibration_044",
+        "calibration_045",
+        "calibration_028",
+        "calibration_029",
+        "calibration_048",
+        "calibration_049",
+        "calibration_060",
+        "calibration_061",
+        "calibration_034",
+        "calibration_035",
+        "calibration_046",
+        "calibration_047",
+        "calibration_056",
+        "calibration_057"
+      ],
+      "fit_windows": 665,
+      "validation_windows": 224,
+      "center": "zero",
+      "status": "complete",
+      "outcome_index": 30,
+      "selected_lambda": 0.001,
+      "validation_rmse": 0.3025944444496715,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.3079545423841178
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.3029403090770856
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.3025944444496715
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.31321446456424945
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.3365693864725818
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.35267767773617026
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.4265347418910086
+        }
+      ],
+      "weight_file": "fit_904_64_zero.npz",
+      "weight_sha256": "e442006e740ccec238bfe1b715e9a3e5d67f8da2463634f93a4c6f7646f8076e"
+    },
+    {
+      "subset_seed": 904,
+      "budget": 64,
+      "fit_episodes": [
+        "calibration_030",
+        "calibration_031",
+        "calibration_054",
+        "calibration_055",
+        "calibration_042",
+        "calibration_043",
+        "calibration_050",
+        "calibration_051",
+        "calibration_010",
+        "calibration_011",
+        "calibration_052",
+        "calibration_053",
+        "calibration_062",
+        "calibration_063",
+        "calibration_038",
+        "calibration_039",
+        "calibration_008",
+        "calibration_009",
+        "calibration_026",
+        "calibration_027",
+        "calibration_058",
+        "calibration_059",
+        "calibration_000",
+        "calibration_001",
+        "calibration_006",
+        "calibration_007",
+        "calibration_020",
+        "calibration_021",
+        "calibration_032",
+        "calibration_033",
+        "calibration_022",
+        "calibration_023",
+        "calibration_024",
+        "calibration_025",
+        "calibration_014",
+        "calibration_015",
+        "calibration_018",
+        "calibration_019",
+        "calibration_040",
+        "calibration_041",
+        "calibration_016",
+        "calibration_017",
+        "calibration_004",
+        "calibration_005",
+        "calibration_012",
+        "calibration_013",
+        "calibration_036",
+        "calibration_037"
+      ],
+      "validation_episodes": [
+        "calibration_002",
+        "calibration_003",
+        "calibration_044",
+        "calibration_045",
+        "calibration_028",
+        "calibration_029",
+        "calibration_048",
+        "calibration_049",
+        "calibration_060",
+        "calibration_061",
+        "calibration_034",
+        "calibration_035",
+        "calibration_046",
+        "calibration_047",
+        "calibration_056",
+        "calibration_057"
+      ],
+      "fit_windows": 665,
+      "validation_windows": 224,
+      "center": "physical",
+      "status": "complete",
+      "outcome_index": 31,
+      "selected_lambda": 0.001,
+      "validation_rmse": 0.30286320102225867,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.30795816570393203
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.3029766048004641
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.30286320102225867
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.3144475580989109
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.34332807013972394
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.39190497210779957
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.5066176050852397
+        }
+      ],
+      "weight_file": "fit_904_64_physical.npz",
+      "weight_sha256": "9dc8c61e02ddb4847a8811b2f6d8e3bcc7c79f9278a33447a95de29066c1668f"
+    },
+    {
+      "subset_seed": 905,
+      "budget": 8,
+      "fit_episodes": [
+        "calibration_014",
+        "calibration_015",
+        "calibration_026",
+        "calibration_027",
+        "calibration_040",
+        "calibration_041"
+      ],
+      "validation_episodes": [
+        "calibration_022",
+        "calibration_023"
+      ],
+      "fit_windows": 83,
+      "validation_windows": 28,
+      "center": "zero",
+      "status": "complete",
+      "outcome_index": 32,
+      "selected_lambda": 0.1,
+      "validation_rmse": 0.19847240868611452,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.2571120137965725
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.25466137233640684
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.24027842484921422
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.21376056964254656
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.19847240868611452
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.23328809290070307
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.3535153922224778
+        }
+      ],
+      "weight_file": "fit_905_8_zero.npz",
+      "weight_sha256": "536dae72998a9d7871fb4f62172b3d2fb4c57737bb60a8cab7d1dd82f30ab105"
+    },
+    {
+      "subset_seed": 905,
+      "budget": 8,
+      "fit_episodes": [
+        "calibration_014",
+        "calibration_015",
+        "calibration_026",
+        "calibration_027",
+        "calibration_040",
+        "calibration_041"
+      ],
+      "validation_episodes": [
+        "calibration_022",
+        "calibration_023"
+      ],
+      "fit_windows": 83,
+      "validation_windows": 28,
+      "center": "physical",
+      "status": "complete",
+      "outcome_index": 33,
+      "selected_lambda": 1.0,
+      "validation_rmse": 0.1742461356506809,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.2521148929929083
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.24969568186926508
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.23557407146727588
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.20887649134436054
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.18541644516997885
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.1742461356506809
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.20137497571987473
+        }
+      ],
+      "weight_file": "fit_905_8_physical.npz",
+      "weight_sha256": "ca33148cee7c557a665f619f45366a9dd827d42df5c43fd118deda721c256d4d"
+    },
+    {
+      "subset_seed": 905,
+      "budget": 16,
+      "fit_episodes": [
+        "calibration_014",
+        "calibration_015",
+        "calibration_026",
+        "calibration_027",
+        "calibration_040",
+        "calibration_041",
+        "calibration_022",
+        "calibration_023",
+        "calibration_010",
+        "calibration_011",
+        "calibration_006",
+        "calibration_007"
+      ],
+      "validation_episodes": [
+        "calibration_052",
+        "calibration_053",
+        "calibration_060",
+        "calibration_061"
+      ],
+      "fit_windows": 167,
+      "validation_windows": 56,
+      "center": "zero",
+      "status": "complete",
+      "outcome_index": 34,
+      "selected_lambda": 0.1,
+      "validation_rmse": 0.2482023697003017,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.44067055148624873
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.3756528443019529
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.2909053243722726
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.2633739453649863
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.2482023697003017
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.2591411306162927
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.33396766813185835
+        }
+      ],
+      "weight_file": "fit_905_16_zero.npz",
+      "weight_sha256": "b8026d55789fa71bffe7abed70ccdc71dedb9932147df40102772669db145db4"
+    },
+    {
+      "subset_seed": 905,
+      "budget": 16,
+      "fit_episodes": [
+        "calibration_014",
+        "calibration_015",
+        "calibration_026",
+        "calibration_027",
+        "calibration_040",
+        "calibration_041",
+        "calibration_022",
+        "calibration_023",
+        "calibration_010",
+        "calibration_011",
+        "calibration_006",
+        "calibration_007"
+      ],
+      "validation_episodes": [
+        "calibration_052",
+        "calibration_053",
+        "calibration_060",
+        "calibration_061"
+      ],
+      "fit_windows": 167,
+      "validation_windows": 56,
+      "center": "physical",
+      "status": "complete",
+      "outcome_index": 35,
+      "selected_lambda": 0.1,
+      "validation_rmse": 0.2618739892484162,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.44165877665490544
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.3768103202782182
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.2921144959921227
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.26710534755984416
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.2618739892484162
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.27951899864284874
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.3419037220732586
+        }
+      ],
+      "weight_file": "fit_905_16_physical.npz",
+      "weight_sha256": "959f83b846f84c50d51d9b35ca940e86d7cfa3e97fb3407ef687009cba9a472e"
+    },
+    {
+      "subset_seed": 905,
+      "budget": 32,
+      "fit_episodes": [
+        "calibration_014",
+        "calibration_015",
+        "calibration_026",
+        "calibration_027",
+        "calibration_040",
+        "calibration_041",
+        "calibration_022",
+        "calibration_023",
+        "calibration_010",
+        "calibration_011",
+        "calibration_006",
+        "calibration_007",
+        "calibration_052",
+        "calibration_053",
+        "calibration_060",
+        "calibration_061",
+        "calibration_036",
+        "calibration_037",
+        "calibration_018",
+        "calibration_019",
+        "calibration_028",
+        "calibration_029",
+        "calibration_058",
+        "calibration_059"
+      ],
+      "validation_episodes": [
+        "calibration_008",
+        "calibration_009",
+        "calibration_054",
+        "calibration_055",
+        "calibration_020",
+        "calibration_021",
+        "calibration_002",
+        "calibration_003"
+      ],
+      "fit_windows": 335,
+      "validation_windows": 112,
+      "center": "zero",
+      "status": "complete",
+      "outcome_index": 36,
+      "selected_lambda": 0.01,
+      "validation_rmse": 0.10275230651049376,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.22343873636497774
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.17150714439611547
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.13137062507731642
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.10275230651049376
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.10324131959855297
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.14935496008359084
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.2715500779941998
+        }
+      ],
+      "weight_file": "fit_905_32_zero.npz",
+      "weight_sha256": "360e7f7fed64db4a1cb7b217d3663e1abf67be18dda1ef9ef47780f4ca5ec85d"
+    },
+    {
+      "subset_seed": 905,
+      "budget": 32,
+      "fit_episodes": [
+        "calibration_014",
+        "calibration_015",
+        "calibration_026",
+        "calibration_027",
+        "calibration_040",
+        "calibration_041",
+        "calibration_022",
+        "calibration_023",
+        "calibration_010",
+        "calibration_011",
+        "calibration_006",
+        "calibration_007",
+        "calibration_052",
+        "calibration_053",
+        "calibration_060",
+        "calibration_061",
+        "calibration_036",
+        "calibration_037",
+        "calibration_018",
+        "calibration_019",
+        "calibration_028",
+        "calibration_029",
+        "calibration_058",
+        "calibration_059"
+      ],
+      "validation_episodes": [
+        "calibration_008",
+        "calibration_009",
+        "calibration_054",
+        "calibration_055",
+        "calibration_020",
+        "calibration_021",
+        "calibration_002",
+        "calibration_003"
+      ],
+      "fit_windows": 335,
+      "validation_windows": 112,
+      "center": "physical",
+      "status": "complete",
+      "outcome_index": 37,
+      "selected_lambda": 0.1,
+      "validation_rmse": 0.10044854381221661,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.2234797044488829
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.17162274274917363
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.13171949062576346
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.10296323824434725
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.10044854381221661
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.11191562799487371
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.1474856447203239
+        }
+      ],
+      "weight_file": "fit_905_32_physical.npz",
+      "weight_sha256": "03c654734afd31913432e85722b0a637880ff87e406e6ed7f43c3012980d6e10"
+    },
+    {
+      "subset_seed": 905,
+      "budget": 64,
+      "fit_episodes": [
+        "calibration_014",
+        "calibration_015",
+        "calibration_026",
+        "calibration_027",
+        "calibration_040",
+        "calibration_041",
+        "calibration_022",
+        "calibration_023",
+        "calibration_010",
+        "calibration_011",
+        "calibration_006",
+        "calibration_007",
+        "calibration_052",
+        "calibration_053",
+        "calibration_060",
+        "calibration_061",
+        "calibration_036",
+        "calibration_037",
+        "calibration_018",
+        "calibration_019",
+        "calibration_028",
+        "calibration_029",
+        "calibration_058",
+        "calibration_059",
+        "calibration_008",
+        "calibration_009",
+        "calibration_054",
+        "calibration_055",
+        "calibration_020",
+        "calibration_021",
+        "calibration_002",
+        "calibration_003",
+        "calibration_004",
+        "calibration_005",
+        "calibration_046",
+        "calibration_047",
+        "calibration_044",
+        "calibration_045",
+        "calibration_000",
+        "calibration_001",
+        "calibration_050",
+        "calibration_051",
+        "calibration_048",
+        "calibration_049",
+        "calibration_062",
+        "calibration_063",
+        "calibration_034",
+        "calibration_035"
+      ],
+      "validation_episodes": [
+        "calibration_038",
+        "calibration_039",
+        "calibration_024",
+        "calibration_025",
+        "calibration_016",
+        "calibration_017",
+        "calibration_012",
+        "calibration_013",
+        "calibration_032",
+        "calibration_033",
+        "calibration_042",
+        "calibration_043",
+        "calibration_056",
+        "calibration_057",
+        "calibration_030",
+        "calibration_031"
+      ],
+      "fit_windows": 671,
+      "validation_windows": 218,
+      "center": "zero",
+      "status": "complete",
+      "outcome_index": 38,
+      "selected_lambda": 0.1,
+      "validation_rmse": 0.16747685040904217,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.22654770509216582
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.21588528995585854
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.19579181665094603
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.1706940715404709
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.16747685040904217
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.19678252170911859
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.3287585547879867
+        }
+      ],
+      "weight_file": "fit_905_64_zero.npz",
+      "weight_sha256": "b1a4fe162d24f62d69a3ec548b9df0439638a0ababbd0aad1a9ec199d5e1ed61"
+    },
+    {
+      "subset_seed": 905,
+      "budget": 64,
+      "fit_episodes": [
+        "calibration_014",
+        "calibration_015",
+        "calibration_026",
+        "calibration_027",
+        "calibration_040",
+        "calibration_041",
+        "calibration_022",
+        "calibration_023",
+        "calibration_010",
+        "calibration_011",
+        "calibration_006",
+        "calibration_007",
+        "calibration_052",
+        "calibration_053",
+        "calibration_060",
+        "calibration_061",
+        "calibration_036",
+        "calibration_037",
+        "calibration_018",
+        "calibration_019",
+        "calibration_028",
+        "calibration_029",
+        "calibration_058",
+        "calibration_059",
+        "calibration_008",
+        "calibration_009",
+        "calibration_054",
+        "calibration_055",
+        "calibration_020",
+        "calibration_021",
+        "calibration_002",
+        "calibration_003",
+        "calibration_004",
+        "calibration_005",
+        "calibration_046",
+        "calibration_047",
+        "calibration_044",
+        "calibration_045",
+        "calibration_000",
+        "calibration_001",
+        "calibration_050",
+        "calibration_051",
+        "calibration_048",
+        "calibration_049",
+        "calibration_062",
+        "calibration_063",
+        "calibration_034",
+        "calibration_035"
+      ],
+      "validation_episodes": [
+        "calibration_038",
+        "calibration_039",
+        "calibration_024",
+        "calibration_025",
+        "calibration_016",
+        "calibration_017",
+        "calibration_012",
+        "calibration_013",
+        "calibration_032",
+        "calibration_033",
+        "calibration_042",
+        "calibration_043",
+        "calibration_056",
+        "calibration_057",
+        "calibration_030",
+        "calibration_031"
+      ],
+      "fit_windows": 671,
+      "validation_windows": 218,
+      "center": "physical",
+      "status": "complete",
+      "outcome_index": 39,
+      "selected_lambda": 0.1,
+      "validation_rmse": 0.17075617503330556,
+      "grid": [
+        {
+          "lambda_": 1e-05,
+          "validation_rmse": 0.2265591051176885
+        },
+        {
+          "lambda_": 0.0001,
+          "validation_rmse": 0.2159639100992162
+        },
+        {
+          "lambda_": 0.001,
+          "validation_rmse": 0.19624130952710728
+        },
+        {
+          "lambda_": 0.01,
+          "validation_rmse": 0.17240915858871847
+        },
+        {
+          "lambda_": 0.1,
+          "validation_rmse": 0.17075617503330556
+        },
+        {
+          "lambda_": 1.0,
+          "validation_rmse": 0.18993277433296898
+        },
+        {
+          "lambda_": 10.0,
+          "validation_rmse": 0.2582743830847346
+        }
+      ],
+      "weight_file": "fit_905_64_physical.npz",
+      "weight_sha256": "f121b5bd2907d19d6d90d91cd509326b53b0a450a43d4fb47e4959a8c094aab2"
+    }
+  ],
+  "physical_records": [],
+  "wall_s": 1.3036422729492188
+}

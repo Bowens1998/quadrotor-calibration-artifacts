@@ -1,0 +1,770 @@
+{
+  "accepted_fits": 84,
+  "checks": [
+    {
+      "regime": "mass_1p4",
+      "method": "physics_features",
+      "seed": 0,
+      "objective": "trajectory",
+      "lambda_": 0.0001,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "physics_features",
+      "seed": 0,
+      "objective": "trajectory",
+      "lambda_": 0.01,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "physics_features",
+      "seed": 0,
+      "objective": "trajectory",
+      "lambda_": 1.0,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "physics_features",
+      "seed": 0,
+      "objective": "decision",
+      "lambda_": 0.0001,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "physics_features",
+      "seed": 0,
+      "objective": "decision",
+      "lambda_": 0.01,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "physics_features",
+      "seed": 0,
+      "objective": "decision",
+      "lambda_": 1.0,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "raw",
+      "seed": 0,
+      "objective": "trajectory",
+      "lambda_": 0.0001,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "raw",
+      "seed": 0,
+      "objective": "trajectory",
+      "lambda_": 0.01,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "raw",
+      "seed": 0,
+      "objective": "trajectory",
+      "lambda_": 1.0,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "raw",
+      "seed": 0,
+      "objective": "decision",
+      "lambda_": 0.0001,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "raw",
+      "seed": 0,
+      "objective": "decision",
+      "lambda_": 0.01,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "raw",
+      "seed": 0,
+      "objective": "decision",
+      "lambda_": 1.0,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "supervised",
+      "seed": 0,
+      "objective": "trajectory",
+      "lambda_": 0.0001,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "supervised",
+      "seed": 0,
+      "objective": "trajectory",
+      "lambda_": 0.01,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "supervised",
+      "seed": 0,
+      "objective": "trajectory",
+      "lambda_": 1.0,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "supervised",
+      "seed": 0,
+      "objective": "decision",
+      "lambda_": 0.0001,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "supervised",
+      "seed": 0,
+      "objective": "decision",
+      "lambda_": 0.01,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "supervised",
+      "seed": 0,
+      "objective": "decision",
+      "lambda_": 1.0,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "supervised",
+      "seed": 1,
+      "objective": "trajectory",
+      "lambda_": 0.0001,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "supervised",
+      "seed": 1,
+      "objective": "trajectory",
+      "lambda_": 0.01,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "supervised",
+      "seed": 1,
+      "objective": "trajectory",
+      "lambda_": 1.0,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "supervised",
+      "seed": 1,
+      "objective": "decision",
+      "lambda_": 0.0001,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "supervised",
+      "seed": 1,
+      "objective": "decision",
+      "lambda_": 0.01,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "supervised",
+      "seed": 1,
+      "objective": "decision",
+      "lambda_": 1.0,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "supervised",
+      "seed": 2,
+      "objective": "trajectory",
+      "lambda_": 0.0001,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "supervised",
+      "seed": 2,
+      "objective": "trajectory",
+      "lambda_": 0.01,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "supervised",
+      "seed": 2,
+      "objective": "trajectory",
+      "lambda_": 1.0,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "supervised",
+      "seed": 2,
+      "objective": "decision",
+      "lambda_": 0.0001,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "supervised",
+      "seed": 2,
+      "objective": "decision",
+      "lambda_": 0.01,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "supervised",
+      "seed": 2,
+      "objective": "decision",
+      "lambda_": 1.0,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "supervised",
+      "seed": 3,
+      "objective": "trajectory",
+      "lambda_": 0.0001,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "supervised",
+      "seed": 3,
+      "objective": "trajectory",
+      "lambda_": 0.01,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "supervised",
+      "seed": 3,
+      "objective": "trajectory",
+      "lambda_": 1.0,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "supervised",
+      "seed": 3,
+      "objective": "decision",
+      "lambda_": 0.0001,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "supervised",
+      "seed": 3,
+      "objective": "decision",
+      "lambda_": 0.01,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "supervised",
+      "seed": 3,
+      "objective": "decision",
+      "lambda_": 1.0,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "supervised",
+      "seed": 4,
+      "objective": "trajectory",
+      "lambda_": 0.0001,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "supervised",
+      "seed": 4,
+      "objective": "trajectory",
+      "lambda_": 0.01,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "supervised",
+      "seed": 4,
+      "objective": "trajectory",
+      "lambda_": 1.0,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "supervised",
+      "seed": 4,
+      "objective": "decision",
+      "lambda_": 0.0001,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "supervised",
+      "seed": 4,
+      "objective": "decision",
+      "lambda_": 0.01,
+      "verified": true
+    },
+    {
+      "regime": "mass_1p4",
+      "method": "supervised",
+      "seed": 4,
+      "objective": "decision",
+      "lambda_": 1.0,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "physics_features",
+      "seed": 0,
+      "objective": "trajectory",
+      "lambda_": 0.0001,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "physics_features",
+      "seed": 0,
+      "objective": "trajectory",
+      "lambda_": 0.01,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "physics_features",
+      "seed": 0,
+      "objective": "trajectory",
+      "lambda_": 1.0,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "physics_features",
+      "seed": 0,
+      "objective": "decision",
+      "lambda_": 0.0001,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "physics_features",
+      "seed": 0,
+      "objective": "decision",
+      "lambda_": 0.01,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "physics_features",
+      "seed": 0,
+      "objective": "decision",
+      "lambda_": 1.0,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "raw",
+      "seed": 0,
+      "objective": "trajectory",
+      "lambda_": 0.0001,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "raw",
+      "seed": 0,
+      "objective": "trajectory",
+      "lambda_": 0.01,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "raw",
+      "seed": 0,
+      "objective": "trajectory",
+      "lambda_": 1.0,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "raw",
+      "seed": 0,
+      "objective": "decision",
+      "lambda_": 0.0001,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "raw",
+      "seed": 0,
+      "objective": "decision",
+      "lambda_": 0.01,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "raw",
+      "seed": 0,
+      "objective": "decision",
+      "lambda_": 1.0,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "supervised",
+      "seed": 0,
+      "objective": "trajectory",
+      "lambda_": 0.0001,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "supervised",
+      "seed": 0,
+      "objective": "trajectory",
+      "lambda_": 0.01,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "supervised",
+      "seed": 0,
+      "objective": "trajectory",
+      "lambda_": 1.0,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "supervised",
+      "seed": 0,
+      "objective": "decision",
+      "lambda_": 0.0001,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "supervised",
+      "seed": 0,
+      "objective": "decision",
+      "lambda_": 0.01,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "supervised",
+      "seed": 0,
+      "objective": "decision",
+      "lambda_": 1.0,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "supervised",
+      "seed": 1,
+      "objective": "trajectory",
+      "lambda_": 0.0001,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "supervised",
+      "seed": 1,
+      "objective": "trajectory",
+      "lambda_": 0.01,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "supervised",
+      "seed": 1,
+      "objective": "trajectory",
+      "lambda_": 1.0,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "supervised",
+      "seed": 1,
+      "objective": "decision",
+      "lambda_": 0.0001,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "supervised",
+      "seed": 1,
+      "objective": "decision",
+      "lambda_": 0.01,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "supervised",
+      "seed": 1,
+      "objective": "decision",
+      "lambda_": 1.0,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "supervised",
+      "seed": 2,
+      "objective": "trajectory",
+      "lambda_": 0.0001,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "supervised",
+      "seed": 2,
+      "objective": "trajectory",
+      "lambda_": 0.01,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "supervised",
+      "seed": 2,
+      "objective": "trajectory",
+      "lambda_": 1.0,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "supervised",
+      "seed": 2,
+      "objective": "decision",
+      "lambda_": 0.0001,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "supervised",
+      "seed": 2,
+      "objective": "decision",
+      "lambda_": 0.01,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "supervised",
+      "seed": 2,
+      "objective": "decision",
+      "lambda_": 1.0,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "supervised",
+      "seed": 3,
+      "objective": "trajectory",
+      "lambda_": 0.0001,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "supervised",
+      "seed": 3,
+      "objective": "trajectory",
+      "lambda_": 0.01,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "supervised",
+      "seed": 3,
+      "objective": "trajectory",
+      "lambda_": 1.0,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "supervised",
+      "seed": 3,
+      "objective": "decision",
+      "lambda_": 0.0001,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "supervised",
+      "seed": 3,
+      "objective": "decision",
+      "lambda_": 0.01,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "supervised",
+      "seed": 3,
+      "objective": "decision",
+      "lambda_": 1.0,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "supervised",
+      "seed": 4,
+      "objective": "trajectory",
+      "lambda_": 0.0001,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "supervised",
+      "seed": 4,
+      "objective": "trajectory",
+      "lambda_": 0.01,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "supervised",
+      "seed": 4,
+      "objective": "trajectory",
+      "lambda_": 1.0,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "supervised",
+      "seed": 4,
+      "objective": "decision",
+      "lambda_": 0.0001,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "supervised",
+      "seed": 4,
+      "objective": "decision",
+      "lambda_": 0.01,
+      "verified": true
+    },
+    {
+      "regime": "lag_3",
+      "method": "supervised",
+      "seed": 4,
+      "objective": "decision",
+      "lambda_": 1.0,
+      "verified": true
+    }
+  ],
+  "scalar_new_data": [
+    {
+      "regime": "mass_1p4",
+      "candidates": [
+        {
+          "tau": 0.1,
+          "validation_regret": 0.00022338047170719633,
+          "validation_accuracy": 0.9583333333333333
+        },
+        {
+          "tau": 0.2,
+          "validation_regret": 0.00022338047170719633,
+          "validation_accuracy": 0.9583333333333333
+        },
+        {
+          "tau": 0.3,
+          "validation_regret": 0.0011187727037866948,
+          "validation_accuracy": 0.9166666666666666
+        },
+        {
+          "tau": 0.5,
+          "validation_regret": 0.0011187727037866948,
+          "validation_accuracy": 0.9166666666666666
+        },
+        {
+          "tau": 0.7,
+          "validation_regret": 0.0011187727037866948,
+          "validation_accuracy": 0.9166666666666666
+        },
+        {
+          "tau": 1.0,
+          "validation_regret": 0.0020756291484226837,
+          "validation_accuracy": 0.875
+        },
+        {
+          "tau": 1.5,
+          "validation_regret": 0.007740015979843987,
+          "validation_accuracy": 0.7083333333333333
+        }
+      ],
+      "selected": {
+        "tau": 0.1,
+        "validation_regret": 0.00022338047170719633,
+        "validation_accuracy": 0.9583333333333333
+      }
+    },
+    {
+      "regime": "lag_3",
+      "candidates": [
+        {
+          "tau": 0.1,
+          "validation_regret": 0.0012347494960327128,
+          "validation_accuracy": 0.9583333333333333
+        },
+        {
+          "tau": 0.2,
+          "validation_regret": 0.0012347494960327128,
+          "validation_accuracy": 0.9583333333333333
+        },
+        {
+          "tau": 0.3,
+          "validation_regret": 0.0012347494960327128,
+          "validation_accuracy": 0.9583333333333333
+        },
+        {
+          "tau": 0.5,
+          "validation_regret": 0.0012347494960327128,
+          "validation_accuracy": 0.9583333333333333
+        },
+        {
+          "tau": 0.7,
+          "validation_regret": 0.0,
+          "validation_accuracy": 1.0
+        },
+        {
+          "tau": 1.0,
+          "validation_regret": 0.00449297069506742,
+          "validation_accuracy": 0.875
+        },
+        {
+          "tau": 1.5,
+          "validation_regret": 0.009892471859910438,
+          "validation_accuracy": 0.75
+        }
+      ],
+      "selected": {
+        "tau": 0.7,
+        "validation_regret": 0.0,
+        "validation_accuracy": 1.0
+      }
+    }
+  ],
+  "stage": "development validation acceptance only; no diagnostic outcome inspected"
+}

@@ -1,0 +1,15 @@
+# SE(3) geometric controller gains (from the WindJEPA-tuned set; closed-loop
+# hover/tracking/wind-rejection behavior was test-covered there).
+controller:
+  rate_hz: 50.0
+  gains:
+    velocity_p: [3.0, 3.0, 4.0]
+    velocity_i: [0.6, 0.6, 0.8]      # zeroed per-env in perturbation episodes
+    velocity_i_limit: 3.0
+    attitude_p: [0.30, 0.30, 0.12]
+    rate_p: [0.06, 0.06, 0.025]
+  limits:
+    max_accel: 8.0
+    max_tilt_deg: 35.0
+    max_velocity_cmd: 4.0
+    max_yaw_rate: 2.0

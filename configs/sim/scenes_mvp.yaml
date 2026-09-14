@@ -1,0 +1,9 @@
+# Controlled simple scenes at one shared flight altitude (spec §6.2).
+z_ref: 3.0
+bounds_xy: [30.0, 30.0]
+obstacle_height: 8.0
+families: [single_pillar, two_pillars, narrow_corridor, offset_pillars, l_shape]
+# seeds per family; the geometry-OOD split holds out the last geo_ood_seeds
+seeds_per_family: 6
+geo_ood_seeds: 2
+manifest: data/manifests/scenes.json

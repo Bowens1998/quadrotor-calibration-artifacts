@@ -1,0 +1,25 @@
+name: m3_wind_jepa
+model:
+  jepa: true
+  use_depth: false
+  use_wind: true
+  privileged: false
+  detach_probe: true
+  latent_dim: 128
+  hidden_dim: 256
+  action_embed_dim: 64
+  ema_decay: 0.996
+data:
+  H: 12
+  K: 30
+  stride: 5
+train:
+  batch_size: 256
+  epochs: 50
+  lr: 3.0e-4
+  loss_weights:
+    probe: 1.0
+    dyn: 1.0
+    var: 1.0
+    wind_rec: 1.0
+    wind_lat: 1.0
